@@ -1,0 +1,246 @@
+{
+  "name": "mini Color",
+  "description": "by Orz-3",
+  "icons": [
+    {
+      "name": "Global",
+      "url": "https://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Icon/Color/Global.png"
+    },
+    {
+      "name": "China",
+      "url": "https://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Icon/Color/China.png"
+    },
+    {
+      "name": "Streaming",
+      "url": "https://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Icon/Color/Streaming.png"
+    },
+    {
+      "name": "StreamingSE",
+      "url": "https://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Icon/Color/StreamingSE.png"
+    },
+    {
+      "name": "StreamingCN",
+      "url": "https://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Icon/Color/StreamingCN.png"
+    },
+    {
+      "name": "Static",
+      "url": "https://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Icon/Color/Static.png"
+    },
+    {
+      "name": "Urltest",
+      "url": "https://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Icon/Color/Urltest.png"
+    },
+    {
+      "name": "Available",
+      "url": "https://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Icon/Color/Available.png"
+    },
+    {
+      "name": "Roundrobin",
+      "url": "https://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Icon/Color/Roundrobin.png"
+    },
+    {
+      "name": "SSID",
+      "url": "https://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Icon/Color/SSID.png"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Icon/Color/Telegram.png"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Icon/Color/Instagram.png"
+    },
+    {
+      "name": "Speedtest",
+      "url": "https://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Icon/Color/Speedtest.png"
+    },
+    {
+      "name": "Adblock",
+      "url": "https://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Icon/Color/Adblock.png"
+    },
+    {
+      "name": "Final",
+      "url": "https://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Icon/Color/Final.png"
+    },
+    {
+      "name": "Google",
+      "url": "https://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Icon/Color/Google.png"
+    },
+    {
+      "name": "Apple",
+      "url": "https://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Icon/Color/Apple.png"
+    },
+    {
+      "name": "Microsoft",
+      "url": "https://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Icon/Color/Microsoft.png"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Icon/Color/Twitter.png"
+    },
+    {
+      "name": "Paypal",
+      "url": "https://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Icon/Color/Paypal.png"
+    },
+    {
+      "name": "GoogleDrive",
+      "url": "https://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Icon/Color/GoogleDrive.png"
+    },
+    {
+      "name": "AppleTV",
+      "url": "https://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Icon/Color/AppleTV.png"
+    },
+    {
+      "name": "Discovery+",
+      "url": "https://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Icon/Color/Discovery.png"
+    },
+    {
+      "name": "Clubhouse",
+      "url": "https://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Icon/Color/Clubhouse.png"
+    },
+    {
+      "name": "NeteaseMusic",
+      "url": "https://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Icon/Color/Netease.png"
+    },
+    {
+      "name": "YouTube",
+      "url": "https://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Icon/Color/YouTube.png"
+    },
+    {
+      "name": "Netflix",
+      "url": "https://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Icon/Color/Netflix.png"
+    },
+    {
+      "name": "Spotify",
+      "url": "https://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Icon/Color/Spotify.png"
+    },
+    {
+      "name": "Emby",
+      "url": "https://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Icon/Color/Emby.png"
+    },
+    {
+      "name": "PLUS",
+      "url": "https://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Icon/Color/PLUS.png"
+    },
+    {
+      "name": "TikTok",
+      "url": "https://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Icon/Color/TikTok.png"
+    },
+    {
+      "name": "Bahamut",
+      "url": "https://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Icon/Color/Bahamut.png"
+    },
+    {
+      "name": "Pornhub",
+      "url": "https://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Icon/Color/Pornhub.png"
+    },
+    {
+      "name": "Bilibili",
+      "url": "https://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Icon/Color/Bili.png"
+    },
+    {
+      "name": "Disney+",
+      "url": "https://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Icon/Color/DisneyPlus.png"
+    },
+    {
+      "name": "HBO",
+      "url": "https://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Icon/Color/HBO.png"
+    },
+    {
+      "name": "Hulu",
+      "url": "https://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Icon/Color/Hulu.png"
+    },
+    {
+      "name": "PrimeVideo",
+      "url": "https://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Icon/Color/PrimeVideo.png"
+    },
+    {
+      "name": "LineTV",
+      "url": "https://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Icon/Color/LineTV.png"
+    },
+    {
+      "name": "Paramount",
+      "url": "https://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Icon/Color/Paramount.png"
+    },
+    {
+      "name": "HK",
+      "url": "https://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Icon/Color/HK.png"
+    },
+    {
+      "name": "MO",
+      "url": "https://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Icon/Color/MO.png"
+    },
+    {
+      "name": "TW",
+      "url": "https://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Icon/Color/TW.png"
+    },
+    {
+      "name": "CN",
+      "url": "https://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Icon/Color/CN.png"
+    },
+    {
+      "name": "GAME",
+      "url": "https://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Icon/Color/GAME.png"
+    },
+    {
+      "name": "JP",
+      "url": "https://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Icon/Color/JP.png"
+    },
+    {
+      "name": "KR",
+      "url": "https://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Icon/Color/KR.png"
+    },
+    {
+      "name": "SG",
+      "url": "https://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Icon/Color/SG.png"
+    },
+    {
+      "name": "VN",
+      "url": "https://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Icon/Color/VN.png"
+    },
+    {
+      "name": "TH",
+      "url": "https://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Icon/Color/TH.png"
+    },
+    {
+      "name": "RU",
+      "url": "https://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Icon/Color/RU.png"
+    },
+    {
+      "name": "UK",
+      "url": "https://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Icon/Color/UK.png"
+    },
+    {
+      "name": "FR",
+      "url": "https://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Icon/Color/FR.png"
+    },
+    {
+      "name": "DE",
+      "url": "https://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Icon/Color/DE.png"
+    },
+    {
+      "name": "TR",
+      "url": "https://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Icon/Color/TR.png"
+    },
+    {
+      "name": "US",
+      "url": "https://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Icon/Color/US.png"
+    },
+    {
+      "name": "CA",
+      "url": "https://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Icon/Color/CA.png"
+    },
+    {
+      "name": "AU",
+      "url": "https://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Icon/Color/AU.png"
+    },
+    {
+      "name": "XD",
+      "url": "https://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Icon/Color/XD.png"
+    },
+    {
+      "name": "UN",
+      "url": "https://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Icon/Color/UN.png"
+    }
+  ]
+}

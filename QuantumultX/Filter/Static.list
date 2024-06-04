@@ -1,0 +1,33 @@
+# NAME: Static
+# AUTHOR: Roy
+# REPO: https://github.com/iRoySwift
+# UPDATED: 2026-04-06
+# HOST: 13
+# DOMAIN: 0
+# HOST-KEYWORD: 0
+# DOMAIN-KEYWORD: 0
+# HOST-SUFFIX: 2
+# DOMAIN-SUFFIX: 0
+# HOST-WILDCARD: 0
+# DOMAIN-WILDCARD: 0
+# IP-CIDR: 0
+# IP6-CIDR: 0
+# IP-CIDR6: 0
+# USER-AGENT: 0
+# TOTAL: 15
+
+HOST,38.47.221.60,Static
+HOST,96110.sbs,Static
+HOST,ana.video.friday.tw,Static
+HOST,clobberprocurertightwad.com,Static
+HOST,hit.api.useinsider.com,Static
+HOST,img.scupio.com,Static
+HOST,locationv2.api.useinsider.com,Static
+HOST,segment.api.useinsider.com,Static
+HOST,static.popdaily.com.tw,Static
+HOST,tw.myrenta.com,Static
+HOST,v8.ppsebs.com,Static
+HOST,video.friday.tw,Static
+HOST,www.clarity.ms,Static
+HOST-SUFFIX,appsflyersdk.com,Static
+HOST-SUFFIX,toomics.com,Static

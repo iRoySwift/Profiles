@@ -1,0 +1,18 @@
+# NAME: YouTube
+# AUTHOR: Roy
+# REPO: https://github.com/iRoySwift
+# UPDATED: 2024-06-06 16:32:56
+# HOST: 6
+# HOST-KEYWORD: 0
+# HOST-SUFFIX: 0
+# HOST-WILDCARD: 0
+# IP-CIDR: 0
+# IP6-CIDR: 0
+# USER-AGENT: 0
+# TOTAL: 6
+HOST, auth0.openai.com, ChatGPT
+HOST, ios.chat.openai.com, ChatGPT
+HOST, ab.chatgpt.com, ChatGPT
+HOST, api.openai.com, ChatGPT
+HOST, chat.openai.com, ChatGPT
+HOST, chatgpt.com, ChatGPT

@@ -2,13 +2,13 @@
 # AUTHOR: Roy
 # REPO: https://github.com/iRoySwift
 # UPDATED: 2024-06-04 02:11:41
-# HOST: 489
+# HOST: 497
 # HOST-KEYWORD: 37
-# HOST-SUFFIX: 24703
+# HOST-SUFFIX: 24705
 # IP-CIDR: 112
 # IP6-CIDR: 4
 # USER-AGENT: 46
-# TOTAL: 25391
+# TOTAL: 25401
 HOST,3dns-1.adobe.com,Global
 HOST,3dns-2.adobe.com,Global
 HOST,3dns-3.adobe.com,Global
@@ -498,6 +498,14 @@ HOST,production-openaicom-storage.azureedge.net,Global
 HOST,self.events.data.microsoft.com,Global
 HOST,testflight.apple.com,Global
 HOST,voice.telephony.goog,Global
+HOST, a6913b7b80402974409b47079c29d775.baas.nintendo.com, Global
+HOST, download-cdn-mariokarttour.akamaized.net, Global
+HOST, api.mariokarttour.com, Global
+HOST, a6913b7b80402974409b47079c29d775.baas.nintendo.com, Global
+HOST, gamefaqs.gamespot.com, Global
+HOST, subcdn.cos.cat, Global
+HOST, audio-ak-spotify-com.akamaized.net, Global
+HOST, gcloud.pokemon-unitepgame.com, Global
 HOST-SUFFIX,01.org,Global
 HOST-SUFFIX,02weqj32.com,Global
 HOST-SUFFIX,04647.club,Global
@@ -23749,6 +23757,7 @@ HOST-SUFFIX,spideroak.com,Global
 HOST-SUFFIX,spike.com,Global
 HOST-SUFFIX,spotflux.com,Global
 HOST-SUFFIX,spotify.com,Global
+HOST-SUFFIX,spotifycdn.com, Global
 HOST-SUFFIX,spreadshirt.es,Global
 HOST-SUFFIX,spring-plus.net,Global
 HOST-SUFFIX,spring.io,Global
@@ -24247,6 +24256,7 @@ HOST-SUFFIX,tradingview.com,Global
 HOST-SUFFIX,trakt.tv,Global
 HOST-SUFFIX,translate.goog,Global
 HOST-SUFFIX,transparency.org,Global
+HOST-SUFFIX,tradingview.com, Global
 HOST-SUFFIX,treemall.com.tw,Global
 HOST-SUFFIX,trello.com,Global
 HOST-SUFFIX,trendsmap.com,Global

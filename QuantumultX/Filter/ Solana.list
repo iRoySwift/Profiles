@@ -11,14 +11,14 @@
 # USER-AGENT: 0
 # TOTAL: 12
 HOST,www.helius.dev,Solana
-HOST, tiplink.io, Solana
-HOST, formulae.brew.sh, Solana
+HOST,tiplink.io,Solana
+HOST,formulae.brew.sh,Solana
 HOST,cdn.jsdelivr.net,Solana
 HOST,www.orca.so,Solana
 HOST,mango.markets,Solana
 HOST,mango-transaction-log.herokuapp.com,Solana
 HOST,sonarwatch.rpcpool.com,Solana
-HOST-SUFFIX,helium.com, Solana
+HOST-SUFFIX,helium.com,Solana
 HOST-SUFFIX,near.org,Solana
-HOST-SUFFIX,solana.com, Solana
+HOST-SUFFIX,solana.com,Solana
 HOST-SUFFIX,stepn.com,Solana

@@ -49,7 +49,6 @@ HOST,aod-pod-uk-live.akamaized.net,Global
 HOST,api-p.videomarket.jp,Global
 HOST,api.viu.now.com,Global
 HOST,apl-hamivideo.cdn.hinet.net,Global
-HOST,apple.com.akadns.net,Global
 HOST,apple.comscoreresearch.com,Global
 HOST,appleworldwidedeveloper.hb-api.omtrdc.net,Global
 HOST,appleworldwidedeveloper.sc.omtrdc.net,Global
@@ -341,7 +340,6 @@ HOST,t21.nikkei.co.jp,Global
 HOST,t21ipau.nikkei.co.jp,Global
 HOST,teamviewer.com.cdn.cloudflare.net,Global
 HOST,tesla-cdn.thron.com,Global
-HOST,tv.apple.com,Global
 HOST,tvcastlive-hamivideo.cdn.hinet.net,Global
 HOST,ubisoft-orbit-savegames.s3.amazonaws.com,Global
 HOST,ubisoft-uplay-savegames.s3.amazonaws.com,Global
@@ -19435,8 +19433,6 @@ HOST-SUFFIX,bild.de,Global
 HOST-SUFFIX,biliworld.com,Global
 HOST-SUFFIX,billypan.com,Global
 HOST-SUFFIX,binance.com,Global
-HOST-SUFFIX,bing.com,Global
-HOST-SUFFIX,bing.net,Global
 HOST-SUFFIX,bingapis.com,Global
 HOST-SUFFIX,bintray.com,Global
 HOST-SUFFIX,binux.me,Global

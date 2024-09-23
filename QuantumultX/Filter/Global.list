@@ -1,14 +1,14 @@
-# NAME:Global
-# AUTHOR: Roy
-# REPO: https://github.com/iRoySwift
-# UPDATED: 2024-06-04 02:11:41
-# HOST: 497
-# HOST-KEYWORD: 37
-# HOST-SUFFIX: 24705
-# IP-CIDR: 112
-# IP6-CIDR: 4
-# USER-AGENT: 46
-# TOTAL: 25401
+#NAME:Global
+#AUTHOR:Roy
+#REPO:https://github.com/iRoySwift
+#UPDATED:2024-06-0402:11:41
+#HOST:534
+#HOST-KEYWORD:37
+#HOST-SUFFIX:24705
+#IP-CIDR:112
+#IP6-CIDR:4
+#USER-AGENT:46
+#TOTAL:25438
 HOST,3dns-1.adobe.com,Global
 HOST,3dns-2.adobe.com,Global
 HOST,3dns-3.adobe.com,Global
@@ -17,6 +17,7 @@ HOST,3dns-5.adobe.com,Global
 HOST,3dns.adobe.com,Global
 HOST,a.ppy.sh,Global
 HOST,a248.e.akamai.net,Global
+HOST,a6913b7b80402974409b47079c29d775.baas.nintendo.com,Global
 HOST,a771.dscq.akamai.net,Global
 HOST,abematv.akamaized.net,Global
 HOST,activate-sea.adobe.com,Global
@@ -46,7 +47,11 @@ HOST,angle.com.tw,Global
 HOST,anime-rule34-world.b-cdn.net,Global
 HOST,aod-pod-uk-live.akamaized.net,Global
 HOST,api-p.videomarket.jp,Global
+HOST,api-partner.spotify.com,Global
+HOST,api.mariokarttour.com,Global
 HOST,api.viu.now.com,Global
+HOST,api2.stepn.com,Global
+HOST,apilb.stepn.com,Global
 HOST,apl-hamivideo.cdn.hinet.net,Global
 HOST,as-dash-uk-live.akamaized.net,Global
 HOST,as-hls-uk-live.akamaized.net,Global
@@ -54,6 +59,7 @@ HOST,asahishimbun.sc.omtrdc.net,Global
 HOST,assets.ppy.sh,Global
 HOST,assets1.xboxlive.com,Global
 HOST,assets2.xboxlive.com,Global
+HOST,audio-ak-spotify-com.akamaized.net,Global
 HOST,audio-ak-spotify-com.akamaized.net,Global
 HOST,audio4-ak-spotify-com.akamaized.net,Global
 HOST,avatargarenanow-a.akamaihd.net,Global
@@ -84,6 +90,7 @@ HOST,cbsplaylistserver.aws.syncbak.com,Global
 HOST,cbsservice.aws.syncbak.com,Global
 HOST,cdn-spotify-experiments.conductrics.com,Global
 HOST,cdn.js7k.com,Global
+HOST,conf.stepn.com,Global
 HOST,cdn.jsdelivr.net,Global
 HOST,cdngarenanow-a.akamaihd.net,Global
 HOST,chinapower.csis.org,Global
@@ -97,6 +104,7 @@ HOST,clubhouse.pubnubapi.com,Global
 HOST,crl.microsoft.com,Global
 HOST,crl.versign.net,Global
 HOST,csis-prod.s3.amazonaws.com,Global
+HOST,data.tradingview.com, Global
 HOST,d1k2us671qcoau.cloudfront.net,Global
 HOST,d29vzk4ow07wi7.cloudfront.net,Global
 HOST,d2anahhhmp1ffz.cloudfront.net,Global
@@ -115,6 +123,7 @@ HOST,dl.begellhouse.com,Global
 HOST,dlgarenanow-a.akamaihd.net,Global
 HOST,dlmobilegarena-a.akamaihd.net,Global
 HOST,download.visualstudio.microsoft.com,Global
+HOST,docs.near.org,Global
 HOST,ds-linear-abematv.akamaized.net,Global
 HOST,ds-vod-abematv.akamaized.net,Global
 HOST,dtlgalleryint.cloudapp.net,Global
@@ -133,6 +142,11 @@ HOST,ereg.wip4.adobe.com,Global
 HOST,espn.api.edge.bamgrid.com,Global
 HOST,espn.hb.omtrdc.net,Global
 HOST,espndotcom.tt.omtrdc.net,Global
+HOST,explorer-api.mainnet-beta.solana.com,Global
+HOST,explorer.helium.com,Global
+HOST,explorer.near.org,Global
+HOST,explorer.solana.com,Global
+HOST,download-cdn-mariokarttour.akamaized.net,Global
 HOST,f3b7q2p3.ssl.hwcdn.net,Global
 HOST,fandom.zendesk.com,Global
 HOST,faronics.kayako.com,Global
@@ -152,9 +166,14 @@ HOST,firebaseremoteconfig.googleapis.com,Global
 HOST,firstsearch.oclc.org,Global
 HOST,fontshop-prod-responsive-images.s3.amazonaws.com,Global
 HOST,foxnewsplayer-a.akamaihd.net,Global
+HOST,formulae.brew.sh,Global
+HOST,gae2-dealer.spotify.com,Global
+HOST,gae2-spclient.spotify.com,Global
 HOST,gamedownloads-rockstargames-com.akamaized.net,Global
+HOST,gamefaqs.gamespot.com,Global
 HOST,gamer-cds.cdn.hinet.net,Global
 HOST,gamer2-cds.cdn.hinet.net,Global
+HOST,gcloud.pokemon-unitepgame.com,Global
 HOST,gigabyte2.azureedge.net,Global
 HOST,github-cloud.s3.amazonaws.com,Global
 HOST,github.global.ssl.fastly.net,Global
@@ -171,6 +190,7 @@ HOST,homebrew.bintray.com,Global
 HOST,hpstore.corpmerchandise.com,Global
 HOST,hulu.playback.edge.bamgrid.com,Global
 HOST,i.jeded.com,Global
+HOST,image-cdn-ak.spotifycdn.com,Global
 HOST,img-prod-cms-rt-microsoft-com.akamaized.net,Global
 HOST,img-s-msn-com.akamaized.net,Global
 HOST,impala-media-production.s3.amazonaws.com,Global
@@ -192,6 +212,8 @@ HOST,media-rockstargames-com.akamaized.net,Global
 HOST,medone-education.thieme.com,Global
 HOST,misa-prod.s3.ap-northeast-1.amazonaws.com,Global
 HOST,mobilelive-hamivideo.cdn.hinet.net,Global
+HOST,mango-transaction-log.herokuapp.com,Global
+HOST,mango.markets,Global
 HOST,mscrl.microsoft.com,Global
 HOST,mtalk.google.com,Global
 HOST,muse.jhu.edu,Global
@@ -201,6 +223,7 @@ HOST,nab.demdex.net,Global
 HOST,nationalaustraliaban.tt.omtrdc.net,Global
 HOST,netflix.com.edgesuite.net,Global
 HOST,notify.ppy.sh,Global
+HOST,notifications.tradingview.com,Global
 HOST,nurofensk-prod-env.eu-west-1.elasticbeanstalk.com,Global
 HOST,nvidia.tt.omtrdc.net,Global
 HOST,nytimes.map.fastly.net,Global
@@ -216,6 +239,7 @@ HOST,p-events-delivery.akamaized.net,Global
 HOST,paper-attachments.s3.amazonaws.com,Global
 HOST,payments-jp.amazon.com,Global
 HOST,pchomeonline.com.tw,Global
+HOST,pine-facade.tradingview.com,Global
 HOST,pki.google.com,Global
 HOST,poshtestgallery.cloudapp.net,Global
 HOST,practivate.adobe,Global
@@ -224,9 +248,11 @@ HOST,practivate.adobe.ipp,Global
 HOST,practivate.adobe.newoa,Global
 HOST,practivate.adobe.ntp,Global
 HOST,prd-priconne-redive.akamaized.net,Global
+HOST,pricealerts.tradingview.com,Global
 HOST,psg-int-centralus.cloudapp.net,Global
 HOST,psg-int-eastus.cloudapp.net,Global
 HOST,public-us-pingsx.api.clonoth.com,Global
+HOST,pushstream.tradingview.com,Global
 HOST,pvr-hamivideo.cdn.hinet.net,Global
 HOST,rink.hockeyapp.net,Global
 HOST,rtm.tnt-ea.com,Global
@@ -312,15 +338,22 @@ HOST,scholar.l.google.com,Global
 HOST,search.yahoo.co.jp,Global
 HOST,sentry.ppy.sh,Global
 HOST,sni1dcb6gl.wpc.edgecastcdn.net,Global
+HOST,sonarwatch.rpcpool.com,Global
+HOST,spclient.wg.spotify.com,Global
 HOST,spectator.ppy.sh,Global
 HOST,spotify.com.edgesuite.net,Global
 HOST,spotify.map.fastly.net,Global
 HOST,spotify.map.fastlylb.net,Global
 HOST,ssl-lvlt.cdn.ea.com,Global
 HOST,static-hamivideo.cdn.hinet.net,Global
+HOST,static.tradingview.com,Global
 HOST,statics-marketingsites-eas-ms-com.akamaized.net,Global
 HOST,statics-marketingsites-eus-ms-com.akamaized.net,Global
 HOST,statics-marketingsites-wcus-ms-com.akamaized.net,Global
+HOST,tiplink.io,Global
+HOST,token-api.streamflow.finance,Global
+HOST,subcdn.cos.cat,Global
+HOST,subcdn.cos.catview.com,Global
 HOST,t21.nikkei.co.jp,Global
 HOST,t21ipau.nikkei.co.jp,Global
 HOST,teamviewer.com.cdn.cloudflare.net,Global
@@ -457,6 +490,10 @@ HOST,wwis-dubc1-vip96.adobe.com,Global
 HOST,wwis-dubc1-vip97.adobe.com,Global
 HOST,wwis-dubc1-vip98.adobe.com,Global
 HOST,wwis-dubc1-vip99.adobe.com,Global
+HOST,www.helius.dev,Global
+HOST,www.orca.so,Global
+HOST,www.tradingview.com,Global
+HOST,www.movieffm.net,Global
 HOST,zeenews-fonts.s3.amazonaws.com,Global
 HOST,ztedevices.com,Global
 HOST,api.msn.com,Global
@@ -477,14 +514,14 @@ HOST,p16-tiktokcdn-com.akamaized.net,Global
 HOST,production-openaicom-storage.azureedge.net,Global
 HOST,self.events.data.microsoft.com,Global
 HOST,voice.telephony.goog,Global
-HOST, a6913b7b80402974409b47079c29d775.baas.nintendo.com, Global
-HOST, download-cdn-mariokarttour.akamaized.net, Global
-HOST, api.mariokarttour.com, Global
-HOST, a6913b7b80402974409b47079c29d775.baas.nintendo.com, Global
-HOST, gamefaqs.gamespot.com, Global
-HOST, subcdn.cos.cat, Global
-HOST, audio-ak-spotify-com.akamaized.net, Global
-HOST, gcloud.pokemon-unitepgame.com, Global
+HOST,a6913b7b80402974409b47079c29d775.baas.nintendo.com,Global
+HOST,download-cdn-mariokarttour.akamaized.net,Global
+HOST,api.mariokarttour.com,Global
+HOST,a6913b7b80402974409b47079c29d775.baas.nintendo.com,Global
+HOST,gamefaqs.gamespot.com,Global
+HOST,subcdn.cos.cat,Global
+HOST,audio-ak-spotify-com.akamaized.net,Global
+HOST,gcloud.pokemon-unitepgame.com,Global
 HOST-SUFFIX,01.org,Global
 HOST-SUFFIX,02weqj32.com,Global
 HOST-SUFFIX,04647.club,Global
@@ -23348,7 +23385,7 @@ HOST-SUFFIX,spideroak.com,Global
 HOST-SUFFIX,spike.com,Global
 HOST-SUFFIX,spotflux.com,Global
 HOST-SUFFIX,spotify.com,Global
-HOST-SUFFIX,spotifycdn.com, Global
+HOST-SUFFIX,spotifycdn.com,Global
 HOST-SUFFIX,spreadshirt.es,Global
 HOST-SUFFIX,spring-plus.net,Global
 HOST-SUFFIX,spring.io,Global
@@ -23847,7 +23884,7 @@ HOST-SUFFIX,tradingview.com,Global
 HOST-SUFFIX,trakt.tv,Global
 HOST-SUFFIX,translate.goog,Global
 HOST-SUFFIX,transparency.org,Global
-HOST-SUFFIX,tradingview.com, Global
+HOST-SUFFIX,tradingview.com,Global
 HOST-SUFFIX,treemall.com.tw,Global
 HOST-SUFFIX,trello.com,Global
 HOST-SUFFIX,trendsmap.com,Global

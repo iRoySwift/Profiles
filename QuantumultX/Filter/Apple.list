@@ -1,13 +1,20 @@
 # NAME: Apple
 # AUTHOR: Roy
 # REPO: https://github.com/iRoySwift
-# UPDATED: 2024-09-23 10:39:26
-# HOST: 2
+# UPDATED: 2024-09-26 10:39:26
+# HOST: 7
 # HOST-KEYWORD: 0
-# HOST-SUFFIX: 0
+# HOST-SUFFIX: 2
 # HOST-WILDCARD: 0
 # IP-CIDR: 0
 # USER-AGENT: 0
-# TOTAL: 2
+# TOTAL: 9
 HOST,gateway.icloud.com,Apple
 HOST, pds.ess.apple.com, Apple
+HOST,news-client.apple.com,GlobalMedia
+HOST,news-edge.apple.com,GlobalMedia
+HOST,news-events.apple.com,GlobalMedia
+HOST,ocvideo.apple.com,GlobalMedia
+HOST,gspe1-ssl.ls.apple.com,GlobalMedia
+HOST-SUFFIX,iadsdk.apple.com
+HOST-SUFFIX,tv.apple.com,GlobalMedia

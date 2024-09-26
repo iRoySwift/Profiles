@@ -2,18 +2,17 @@
 # AUTHOR: Roy
 # REPO: https://github.com/iRoySwift
 # UPDATED: 2024-06-04 02:11:42
-# HOST: 28
+# HOST: 22
 # HOST-KEYWORD: 25
-# HOST-SUFFIX: 1255
+# HOST-SUFFIX: 1254
 # HOST-WILDCARD: 10
 # IP-CIDR: 918
 # IP6-CIDR: 6
 # USER-AGENT: 69
-# TOTAL: 2311
+# TOTAL: 2304
 HOST,akmcdnoversea-tw.inter.ptqy.gitv.tv,GlobalMedia
 HOST,api.okzy.tv,GlobalMedia
 HOST,apm-misaka.biliapi.net,GlobalMedia
-HOST,apple.comscoreresearch.com,GlobalMedia
 HOST,bcbolt446c5271-a.akamaihd.net,GlobalMedia
 HOST,cache.video.iqiyi.com,GlobalMedia
 HOST,chuangcachecdnoversea-tw.inter.ptqy.gitv.tv,GlobalMedia
@@ -23,7 +22,6 @@ HOST,daznfeeds.com.edgekey.net,GlobalMedia
 HOST,dca-lm-livedazn.secure.footprint.net,GlobalMedia
 HOST,e13252.dscg.akamaiedge.net,GlobalMedia
 HOST,edge.cwtv-vod-ext.top.comcast.net,GlobalMedia
-HOST,gspe1-ssl.ls.apple.com,GlobalMedia
 HOST,h-dazn.online-metrix.net,GlobalMedia
 HOST,h-netflix.online-metrix.net,GlobalMedia
 HOST,hamifans.emome.net,GlobalMedia
@@ -32,10 +30,6 @@ HOST,hulu.map.fastly.net,GlobalMedia
 HOST,images-daznservices-com.cdn.ampproject.org,GlobalMedia
 HOST,itvpnpmobile-a.akamaihd.net,GlobalMedia
 HOST,ktpx.amazon.com,GlobalMedia
-HOST,news-client.apple.com,GlobalMedia
-HOST,news-edge.apple.com,GlobalMedia
-HOST,news-events.apple.com,GlobalMedia
-HOST,ocvideo.apple.com,GlobalMedia
 HOST,rpg.pic-imges.com,GlobalMedia
 HOST,rthklive2-lh.akamaihd.net,GlobalMedia
 HOST-SUFFIX,112263.com,GlobalMedia
@@ -997,7 +991,6 @@ HOST-SUFFIX,tiktokv.com,GlobalMedia
 HOST-SUFFIX,timestalks.com,GlobalMedia
 HOST-SUFFIX,tospotify.com,GlobalMedia
 HOST-SUFFIX,ttvnw.net,GlobalMedia
-HOST-SUFFIX,tv.apple.com,GlobalMedia
 HOST-SUFFIX,tvb.com,GlobalMedia
 HOST-SUFFIX,tvb.com.au,GlobalMedia
 HOST-SUFFIX,tvbanywhere.com,GlobalMedia

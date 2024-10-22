@@ -16,5 +16,5 @@ HOST,news-edge.apple.com,GlobalMedia
 HOST,news-events.apple.com,GlobalMedia
 HOST,ocvideo.apple.com,GlobalMedia
 HOST,gspe1-ssl.ls.apple.com,GlobalMedia
-HOST,iadsdk.apple.com
+HOST,iadsdk.apple.com,GlobalMedia
 HOST,tv.apple.com,GlobalMedia

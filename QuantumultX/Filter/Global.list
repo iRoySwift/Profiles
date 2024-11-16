@@ -2,17 +2,29 @@
 #AUTHOR:Roy
 #REPO:https://github.com/iRoySwift
 #UPDATED:2024-06-0402:11:41
-#HOST:534
+#HOST:539
 #HOST-KEYWORD:37
-#HOST-SUFFIX:24705
+#HOST-SUFFIX:24695
 #IP-CIDR:112
 #IP6-CIDR:4
 #USER-AGENT:46
-#TOTAL:25438
+#TOTAL:25412
 HOST-SUFFIX,adobe.com,Global
 HOST-SUFFIX,akamaized.net,Global
 HOST-KEYWORD,google,Global
 
+HOST, imap.zasq.net, Global
+HOST, www.shudan.vip, Global
+HOST, www.tacoso.cc, Global
+HOST, zhiso.top, Global
+HOST, m.yinghuajinju.com, Global
+HOST, www.ntdm9.com, Global
+HOST, x.91sheshe.com, Global
+HOST, b-hls-05.sacdnssedge.com, Global
+HOST, vdownload.hembed.com, Global
+HOST, xlivesex.com, Global
+HOST, b-hls-07.sacdnssedge.com, Global
+HOST, xlivesex.com, Global
 HOST,a.ppy.sh,Global
 HOST,a248.e.akamai.net,Global
 HOST,a6913b7b80402974409b47079c29d775.baas.nintendo.com,Global
@@ -70,7 +82,6 @@ HOST,clubhouse.pubnubapi.com,Global
 HOST,crl.microsoft.com,Global
 HOST,crl.versign.net,Global
 HOST,csis-prod.s3.amazonaws.com,Global
-HOST,data.tradingview.com, Global
 HOST,d1k2us671qcoau.cloudfront.net,Global
 HOST,d29vzk4ow07wi7.cloudfront.net,Global
 HOST,d2anahhhmp1ffz.cloudfront.net,Global
@@ -177,7 +188,6 @@ HOST,nab.demdex.net,Global
 HOST,nationalaustraliaban.tt.omtrdc.net,Global
 HOST,netflix.com.edgesuite.net,Global
 HOST,notify.ppy.sh,Global
-HOST,notifications.tradingview.com,Global
 HOST,nurofensk-prod-env.eu-west-1.elasticbeanstalk.com,Global
 HOST,nvidia.tt.omtrdc.net,Global
 HOST,nytimes.map.fastly.net,Global
@@ -193,7 +203,6 @@ HOST,p-events-delivery.akamaized.net,Global
 HOST,paper-attachments.s3.amazonaws.com,Global
 HOST,payments-jp.amazon.com,Global
 HOST,pchomeonline.com.tw,Global
-HOST,pine-facade.tradingview.com,Global
 HOST,pki.google.com,Global
 HOST,poshtestgallery.cloudapp.net,Global
 HOST,practivate.adobe,Global
@@ -202,11 +211,9 @@ HOST,practivate.adobe.ipp,Global
 HOST,practivate.adobe.newoa,Global
 HOST,practivate.adobe.ntp,Global
 HOST,prd-priconne-redive.akamaized.net,Global
-HOST,pricealerts.tradingview.com,Global
 HOST,psg-int-centralus.cloudapp.net,Global
 HOST,psg-int-eastus.cloudapp.net,Global
 HOST,public-us-pingsx.api.clonoth.com,Global
-HOST,pushstream.tradingview.com,Global
 HOST,pvr-hamivideo.cdn.hinet.net,Global
 HOST,rink.hockeyapp.net,Global
 HOST,rtm.tnt-ea.com,Global
@@ -225,7 +232,6 @@ HOST,spotify.map.fastly.net,Global
 HOST,spotify.map.fastlylb.net,Global
 HOST,ssl-lvlt.cdn.ea.com,Global
 HOST,static-hamivideo.cdn.hinet.net,Global
-HOST,static.tradingview.com,Global
 HOST,statics-marketingsites-eas-ms-com.akamaized.net,Global
 HOST,statics-marketingsites-eus-ms-com.akamaized.net,Global
 HOST,statics-marketingsites-wcus-ms-com.akamaized.net,Global
@@ -370,8 +376,6 @@ HOST,wwis-dubc1-vip97.adobe.com,Global
 HOST,wwis-dubc1-vip98.adobe.com,Global
 HOST,wwis-dubc1-vip99.adobe.com,Global
 HOST,www.helius.dev,Global
-HOST,www.orca.so,Global
-HOST,www.tradingview.com,Global
 HOST,www.movieffm.net,Global
 HOST,zeenews-fonts.s3.amazonaws.com,Global
 HOST,ztedevices.com,Global
@@ -2815,33 +2819,6 @@ HOST-SUFFIX,bimseeker.com,Global
 HOST-SUFFIX,bimsource.com,Global
 HOST-SUFFIX,bimworld.com,Global
 HOST-SUFFIX,binads.com,Global
-HOST-SUFFIX,binance.cc,Global
-HOST-SUFFIX,binance.charity,Global
-HOST-SUFFIX,binance.cloud,Global
-HOST-SUFFIX,binance.co,Global
-HOST-SUFFIX,binance.info,Global
-HOST-SUFFIX,binance.me,Global
-HOST-SUFFIX,binance.net,Global
-HOST-SUFFIX,binance.org,Global
-HOST-SUFFIX,binance.us,Global
-HOST-SUFFIX,binance.vision,Global
-HOST-SUFFIX,binanceapi.com,Global
-HOST-SUFFIX,binancecnt.com,Global
-HOST-SUFFIX,binancezh.be,Global
-HOST-SUFFIX,binancezh.biz,Global
-HOST-SUFFIX,binancezh.cc,Global
-HOST-SUFFIX,binancezh.co,Global
-HOST-SUFFIX,binancezh.com,Global
-HOST-SUFFIX,binancezh.info,Global
-HOST-SUFFIX,binancezh.ink,Global
-HOST-SUFFIX,binancezh.kim,Global
-HOST-SUFFIX,binancezh.link,Global
-HOST-SUFFIX,binancezh.live,Global
-HOST-SUFFIX,binancezh.mobi,Global
-HOST-SUFFIX,binancezh.net,Global
-HOST-SUFFIX,binancezh.pro,Global
-HOST-SUFFIX,binancezh.sh,Global
-HOST-SUFFIX,binancezh.top,Global
 HOST-SUFFIX,bing123.com,Global
 HOST-SUFFIX,bingads.com,Global
 HOST-SUFFIX,bingagencyawards.com,Global
@@ -23461,11 +23438,9 @@ HOST-SUFFIX,toytractorshow.com,Global
 HOST-SUFFIX,tparents.org,Global
 HOST-SUFFIX,tpi.org.tw,Global
 HOST-SUFFIX,tracfone.com,Global
-HOST-SUFFIX,tradingview.com,Global
 HOST-SUFFIX,trakt.tv,Global
 HOST-SUFFIX,translate.goog,Global
 HOST-SUFFIX,transparency.org,Global
-HOST-SUFFIX,tradingview.com,Global
 HOST-SUFFIX,treemall.com.tw,Global
 HOST-SUFFIX,trello.com,Global
 HOST-SUFFIX,trendsmap.com,Global
@@ -24569,8 +24544,6 @@ HOST-SUFFIX,install.speedtest.net,Global
 HOST-SUFFIX,asiacomics.online,Global
 HOST-SUFFIX,www.ttsp.tv,Global
 HOST-SUFFIX,opensea.io,Global
-HOST-SUFFIX,telemetry.tradingview.com,Global
-HOST-SUFFIX,charts-storage-notifications.tradingview.com,Global
 HOST-SUFFIX,a56e3akcliml7qkmnyuerkbjdoirrl5dxraqfyge4kaoh5ppr7vq.arweave.net,Global
 HOST-SUFFIX,app-measurement.com,Global
 HOST-SUFFIX,bam.nr-data.net,Global

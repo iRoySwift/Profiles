@@ -2,14 +2,14 @@
 # AUTHOR: Roy
 # REPO: https://github.com/iRoySwift
 # UPDATED: 2024-06-06 16:32:56
-# HOST: 8
-# HOST-KEYWORD: 0
-# HOST-SUFFIX: 4
+# HOST: 9
+# HOST-KEYWORD: 1
+# HOST-SUFFIX: 5
 # HOST-WILDCARD: 0
 # IP-CIDR: 0
 # IP6-CIDR: 0
 # USER-AGENT: 0
-# TOTAL: 12
+# TOTAL: 13
 HOST,www.helius.dev,Solana
 HOST,tiplink.io,Solana
 HOST,formulae.brew.sh,Solana
@@ -18,7 +18,10 @@ HOST,www.orca.so,Solana
 HOST,mango.markets,Solana
 HOST,mango-transaction-log.herokuapp.com,Solana
 HOST,sonarwatch.rpcpool.com,Solana
+HOST, exocharts.com, Solana
+HOST-SUFFIX,tradingview.com,Solana
 HOST-SUFFIX,helium.com,Solana
 HOST-SUFFIX,near.org,Solana
 HOST-SUFFIX,solana.com,Solana
 HOST-SUFFIX,stepn.com,Solana
+HOST-KEYWORD,binance, Solana

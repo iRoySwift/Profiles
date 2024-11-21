@@ -19,6 +19,10 @@ HOST,mango.markets,Solana
 HOST,mango-transaction-log.herokuapp.com,Solana
 HOST,sonarwatch.rpcpool.com,Solana
 HOST, exocharts.com, Solana
+HOST, api.expo.dev, Solana
+HOST, registry.npmjs.org, Solana
+host, tw.myrenta.com, Solana
+host, www.banyuetan.org, Solana
 HOST-SUFFIX,tradingview.com,Solana
 HOST-SUFFIX,helium.com,Solana
 HOST-SUFFIX,near.org,Solana

@@ -2,18 +2,20 @@
 #AUTHOR:Roy
 #REPO:https://github.com/iRoySwift
 #UPDATED:2024-06-0402:11:41
-#HOST:538
+#HOST:540
 #HOST-KEYWORD:37
 #HOST-SUFFIX:24694
 #IP-CIDR:112
 #IP6-CIDR:4
 #USER-AGENT:46
-#TOTAL:25410
+#TOTAL:25412
 HOST-SUFFIX,adobe.com,Global
 HOST-SUFFIX,akamaized.net,Global
 HOST-KEYWORD,google,Global
 HOST, imap.zasq.net, Global
 HOST, www.shudan.vip, Global
+HOST, fengqun.io, Global
+HOST, dash.fengqunvpn.co, Global
 HOST, www.tacoso.cc, Global
 HOST, zhiso.top, Global
 HOST, m.yinghuajinju.com, Global

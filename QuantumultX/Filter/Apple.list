@@ -9,7 +9,7 @@
 # IP-CIDR: 0
 # USER-AGENT: 0
 # TOTAL: 12
-HOST,gateway.icloud.com,Apple
+
 HOST, pds.ess.apple.com, Apple
 HOST,news-client.apple.com,Apple
 HOST,news-edge.apple.com,Apple

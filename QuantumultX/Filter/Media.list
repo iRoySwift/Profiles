@@ -32,6 +32,57 @@ HOST,itvpnpmobile-a.akamaihd.net,GlobalMedia
 HOST,ktpx.amazon.com,GlobalMedia
 HOST,rpg.pic-imges.com,GlobalMedia
 HOST,rthklive2-lh.akamaihd.net,GlobalMedia
+HOST, api.ffbbbdc6d3c353211fe2ba39c9f744cd.com, GlobalMedia
+HOST, api.svc.taiwanmedia.org, GlobalMedia
+HOST, app-analytics-services.com, GlobalMedia
+HOST, app.galxe.com, GlobalMedia
+HOST, b-hls-17.sacdnssedge.com, GlobalMedia
+HOST, b-hls-25.doppiocdn.net, GlobalMedia
+HOST, b.galxestatic.com, GlobalMedia
+HOST, cdi.ofiii.com, GlobalMedia
+HOST, cdn.branch.io, GlobalMedia
+HOST, cdn.oaistatic.com, GlobalMedia
+HOST, edge-hls.doppiocdn.com, GlobalMedia
+HOST, edge-hls.doppiocdn.net, GlobalMedia
+HOST, freestrip.chat, GlobalMedia
+HOST, fridayvideo.api.useinsider.com, GlobalMedia
+HOST, go.rmzsglng.com, GlobalMedia
+HOST, logos.skyscnr.com, GlobalMedia
+HOST, missav.ws, GlobalMedia
+HOST, mmbiz.qpic.cn, GlobalMedia
+HOST, nano.nachoneko.cn, GlobalMedia
+HOST, nnyy.in, GlobalMedia
+HOST, proxy.safebrowsing.apple, GlobalMedia
+HOST, s.magsrv.com, GlobalMedia
+HOST, s1-a1.global-cdn.me, GlobalMedia
+HOST, s1-e1.arebyte.xyz, GlobalMedia
+HOST, s1-e1.bitwayeat.com, GlobalMedia
+HOST, s1-e1.sbacii.com, GlobalMedia
+HOST, s1-e1.timeprecei.com, GlobalMedia
+HOST, s6-e1.etcbbf.xyz, GlobalMedia
+HOST, s6-e1.etcbbh.xyz, GlobalMedia
+HOST, s6-e1.generalcdn.com, GlobalMedia
+HOST, s6-e1.newyvpa.com, GlobalMedia
+HOST, s6-e1.tfbgaaa.com, GlobalMedia
+HOST, s6-e1.tfbgccc.com, GlobalMedia
+HOST, s6-e1.tfbgddd.com, GlobalMedia
+HOST, s6-e1.tfbgeee.com, GlobalMedia
+HOST, s6-e1.tfboyaaa.com, GlobalMedia
+HOST, s6-e1.tfboyaab.com, GlobalMedia
+HOST, s6-e1.tfboyaac.com, GlobalMedia
+HOST, s6-e1.tfboyaad.com, GlobalMedia
+HOST, s7.addthis.com, GlobalMedia
+HOST, sb.scorecardresearch.com, GlobalMedia
+HOST, shield.lightprotocol.com, 自动选择
+HOST, static.yfsp.tv, GlobalMedia
+HOST, stripcash.com, GlobalMedia
+HOST, video.saawsedge.com, GlobalMedia
+HOST, vip.ffzy-play2.com, GlobalMedia
+HOST, w.anygate.vip, GlobalMedia
+HOST, www.kkday.com, 自动选择
+HOST, www.mckinsey.com.cn, GlobalMedia
+HOST, www.ttkmh.com, GlobalMedia
+HOST, xhlive.cam, GlobalMedia
 HOST-SUFFIX,112263.com,GlobalMedia
 HOST-SUFFIX,20thcenturystudios.com.au,GlobalMedia
 HOST-SUFFIX,20thcenturystudios.com.br,GlobalMedia

@@ -16,3 +16,13 @@ HOST,tw.myrenta.com,Static
 HOST,v8.ppsebs.com,Static
 HOST-SUFFIX,toomics.com,Static
 HOST-SUFFIX,appsflyersdk.com,Static
+HOST, video.friday.tw, Static
+HOST, ana.video.friday.tw, Static
+HOST, www.clarity.ms, Static
+HOST, img.scupio.com, Static
+HOST, hit.api.useinsider.com, Static
+HOST, locationv2.api.useinsider.com, Static
+HOST, segment.api.useinsider.com, Static
+HOST, fridayvideo.api.useinsider.com, Static
+host, static.popdaily.com.tw, Static
+

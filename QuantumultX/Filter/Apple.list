@@ -2,22 +2,18 @@
 # AUTHOR: Roy
 # REPO: https://github.com/iRoySwift
 # UPDATED: 2024-09-26 10:39:26
-# HOST: 12
+# HOST: 5
 # HOST-KEYWORD: 0
-# HOST-SUFFIX: 0
+# HOST-SUFFIX: 1
 # HOST-WILDCARD: 0
 # IP-CIDR: 0
 # USER-AGENT: 0
-# TOTAL: 12
+# TOTAL: 6
 
-HOST, pds.ess.apple.com, Apple
-HOST,news-client.apple.com,Apple
-HOST,news-edge.apple.com,Apple
-HOST,news-events.apple.com,Apple
-HOST,ocvideo.apple.com,Apple
-HOST,gspe1-ssl.ls.apple.com,Apple
-HOST,iadsdk.apple.com,Apple
-HOST,tv.apple.com,Apple
 HOST, gitbook.swiftgg.team, Apple
 HOST, updates.cdn-apple.com, Apple
-HOST, developerservices2.apple.com, Apple
+HOST, is1-ssl.mzstatic.com, Apple
+HOST, gateway.icloud.com, 自动选择
+HOST, direction2.is.autonavi.com, direct
+HOST,dispatcher.is.autonavi.com,direct
+HOST-SUFFIX,apple.com,Apple

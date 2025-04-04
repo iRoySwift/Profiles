@@ -306,6 +306,123 @@ HOST,gamefaqs.gamespot.com,Global
 HOST,subcdn.cos.cat,Global
 HOST,audio-ak-spotify-com.akamaized.net,Global
 HOST,gcloud.pokemon-unitepgame.com,Global
+HOST,www.helius.dev,Global
+HOST,tiplink.io,Global
+HOST,formulae.brew.sh,Global
+HOST,cdn.jsdelivr.net,Global
+HOST,www.orca.so,Global
+HOST,mango.markets,Global
+HOST,mango-transaction-log.herokuapp.com,Global
+HOST,sonarwatch.rpcpool.com,Global
+HOST, exocharts.com, Global
+HOST, api.expo.dev, Global
+HOST, registry.npmjs.org, Global
+host, tw.myrenta.com, Global
+host, www.banyuetan.org, Global
+host, api3.bybdc6.com, Global
+host, ws2.byd3c3.com, Global
+host, ws2.byabcde.com, Global
+host, content.byabcd.com, Global
+host, api3.byabcde.com, Global
+host, api3.bybdc6.com, Global
+host, graphigo.prd.galaxy.eco, Global
+host, rpc.gravity.xyz, Global
+host, ws2.byapps.net, Global
+host, api3.byd3c3.com, Global
+host, api3.byapps.net, Global
+host, api4.cursor.sh, Global
+host, prod-infra-app-pigeon-public.s3.ap-southeast-1.amazonaws.com, Global
+host, mobile.events.data.microsoft.com, Global
+host, update.code.visualstudio.com, Global
+host, ap-sin-00001.s3.dualstack.ap-southeast-1.amazonaws.com, direct
+host, eppo-proxy.phantom.app, Global
+host, westus-0.in.applicationinsights.azure.com, direct
+host, features-api.solflare.com, Global
+host, solflare.com, Global
+host, wallet-api.solflare.com, Global
+host, auth.phantom.app, Global
+host, creative.myavlive.com, Global
+host, ui.shadcn.com, Global
+host, api.expo.dev, Global
+host, exocharts.com, Global
+host, registry.npmjs.org, Global
+host, api.phantom.app, Global
+host, gas-price-oracle.phantom.app, Global
+host, solana-mainnet.phantom.app, Global
+host, cdn.sanity.io, Global
+host, sanity-proxy-v2.phantom.app, Global
+host, blowfish-blocklist-proxy.phantom.app, Global
+host, static.moonpay.com, Global
+host, fp.tiplink.io, Global
+host, mainnet.helius-rpc.com, Global
+host, jupiter-frontend.rpcpool.com, Global
+host, jupiter-fe.helius-rpc.com, Global
+host, birdeye.so, Global
+host, dash.fengqunvpn.co, Global
+host, fengqun.io, Global
+HOST-SUFFIX, pump.fun, Global
+HOST-SUFFIX,tradingview.com,Global
+HOST-SUFFIX,helium.com,Global
+HOST-SUFFIX,near.org,Global
+HOST-SUFFIX,solana.com,Global
+HOST-SUFFIX,stepn.com,Global
+HOST-SUFFIX, solscan.io, Global
+HOST-SUFFIX, rate-x.io, Global
+HOST-SUFFIX, jup.ag, Global
+HOST-SUFFIX, tensor.trade, Global
+HOST-SUFFIX, bybit.com, Global
+HOST-KEYWORD,binance, Global
+HOST, pinata.cloud, Global
+HOST, render.ibex.trade, Global
+HOST, events.framer.com, Global
+HOST, console.onocoy.com, Global
+HOST, babel-api.mainnet.iotex.io, Global
+HOST, grass.ghost.io, Global
+HOST, app.getgrass.io, Global
+HOST, js.hs-scripts.com, Global
+HOST, segment-coverage.hivemapper.com, Global
+HOST, beemaps.com, Global
+HOST, depinscan.io, Global
+HOST, lu.ma, Global
+HOST, rpc.ironforge.network, Global
+HOST, use1.fptls.com, Global
+HOST, pool.v6.bt.n0808.com, Global
+HOST, analysis-acc-ssl.xunlei.com, Global
+HOST, arb1.arbitrum.io, Global
+HOST, www.vaultka.com, Global
+HOST, www.exponent.finance, Global
+HOST, docs.exponent.finance, Global
+HOST, staked.helius-rpc.com, Global
+HOST, mainnet-beta.solflare.network, Global
+HOST, media.solana-cdn.com, Global
+HOST, eu-assets.i.posthog.com, Global
+HOST, geo.workers.madlads.com, Global
+HOST, api.backpack.exchange, Global
+HOST, price-indexer.workers.madlads.com, Global
+HOST, backpack-api.xnfts.dev, Global
+HOST, wallet-banner.xnftdata.com, Global
+HOST, staking.xnfts.dev, Global
+HOST, crossmint.myfilebase.com, Global
+HOST, activity-api.solflare.com, Global
+HOST, zustand.docs.pmnd.rs, Global
+HOST, docs.pmnd.rs, Global
+HOST, www.techflowpost.com, Global
+HOST, upload.techflowpost.com, Global
+HOST, img-s-msn-com.akamaized.net, Global
+HOST, daypicker.dev, Global
+HOST, v3.tailwindcss.com, Global
+HOST, evt.iloveimg.com, Global
+HOST, www.iloveimg.com, Global
+HOST, www.betdex.com, Global
+HOST, api.stakewiz.com, Global
+HOST, react.dev, Global
+HOST, x.com, Global
+HOST, edge-177.sgsin8.icloud-content.com, Global
+HOST, p58-content.icloud.com, Global
+HOST, p66-content.icloud.com, Global
+HOST, hkfastcn-hdcpneijtw.cn-hongkong.fcapp.run, Global
+HOST, echarts.apache.org, Global
+HOST, fastly.jsdelivr.net, Global
 HOST-SUFFIX,01.org,Global
 HOST-SUFFIX,02weqj32.com,Global
 HOST-SUFFIX,04647.club,Global
@@ -18530,7 +18647,6 @@ HOST-SUFFIX,aolcdn.com,Global
 HOST-SUFFIX,aolnews.com,Global
 HOST-SUFFIX,aomiwang.com,Global
 HOST-SUFFIX,ap.org,Global
-HOST-SUFFIX,apache.org,Global
 HOST-SUFFIX,apartmentratings.com,Global
 HOST-SUFFIX,apartments.com,Global
 HOST-SUFFIX,apat1989.org,Global

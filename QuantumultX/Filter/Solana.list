@@ -1,79 +1,59 @@
 # NAME: Solana
 # AUTHOR: Roy
 # REPO: https://github.com/iRoySwift
-# UPDATED: 2024-06-06 16:32:56
+# UPDATED: 2025-04-05 10:32:56
 # HOST: 11
 # HOST-KEYWORD: 1
-# HOST-SUFFIX: 5
+# HOST-SUFFIX: 33
 # HOST-WILDCARD: 0
 # IP-CIDR: 0
 # IP6-CIDR: 0
 # USER-AGENT: 0
-# TOTAL: 15
-HOST,www.helius.dev,Solana
-HOST,tiplink.io,Solana
-HOST,formulae.brew.sh,Solana
-HOST,cdn.jsdelivr.net,Solana
-HOST,www.orca.so,Solana
-HOST,mango.markets,Solana
-HOST,mango-transaction-log.herokuapp.com,Solana
-HOST,sonarwatch.rpcpool.com,Solana
-HOST, exocharts.com, Solana
-HOST, api.expo.dev, Solana
-HOST, registry.npmjs.org, Solana
-host, tw.myrenta.com, Solana
-host, www.banyuetan.org, Solana
-host, api3.bybdc6.com, Solana
-host, ws2.byd3c3.com, Solana
-host, ws2.byabcde.com, Solana
-host, content.byabcd.com, Solana
-host, api3.byabcde.com, Solana
-host, api3.bybdc6.com, Solana
-host, graphigo.prd.galaxy.eco, Solana
-host, rpc.gravity.xyz, Solana
-host, ws2.byapps.net, Solana
-host, api3.byd3c3.com, Solana
-host, api3.byapps.net, Solana
-host, api4.cursor.sh, Solana
-host, prod-infra-app-pigeon-public.s3.ap-southeast-1.amazonaws.com, Solana
-host, mobile.events.data.microsoft.com, Solana
-host, update.code.visualstudio.com, Solana
-host, ap-sin-00001.s3.dualstack.ap-southeast-1.amazonaws.com, direct
-host, eppo-proxy.phantom.app, Solana
-host, westus-0.in.applicationinsights.azure.com, direct
-host, features-api.solflare.com, Solana
-host, solflare.com, Solana
-host, wallet-api.solflare.com, Solana
-host, auth.phantom.app, Solana
-host, creative.myavlive.com, Solana
-host, ui.shadcn.com, Solana
-host, api.expo.dev, Solana
-host, exocharts.com, Solana
-host, registry.npmjs.org, Solana
-host, api.phantom.app, Solana
-host, gas-price-oracle.phantom.app, Solana
-host, solana-mainnet.phantom.app, Solana
-host, cdn.sanity.io, Solana
-host, sanity-proxy-v2.phantom.app, Solana
-host, blowfish-blocklist-proxy.phantom.app, Solana
-host, static.moonpay.com, Solana
-host, fp.tiplink.io, Solana
-host, mainnet.helius-rpc.com, Solana
-host, jupiter-frontend.rpcpool.com, Solana
-host, jupiter-fe.helius-rpc.com, Solana
-host, birdeye.so, Solana
-host, dash.fengqunvpn.co, Solana
-host, fengqun.io, Solana
-HOST-SUFFIX, pump.fun, Solana
-HOST-SUFFIX,tradingview.com,Solana
-HOST-SUFFIX,helium.com,Solana
-HOST-SUFFIX,near.org,Solana
-HOST-SUFFIX,solana.com,Solana
-HOST-SUFFIX,stepn.com,Solana
-HOST-SUFFIX, solscan.io, Solana
-HOST-SUFFIX, rate-x.io, Solana
-HOST-SUFFIX, jup.ag, Solana
-HOST-SUFFIX, tensor.trade, Solana
-HOST-SUFFIX, bybit.com, Solana
+# TOTAL: 45
 
-HOST-KEYWORD,binance, Solana
+HOST,api3.byabcde.com,Solana
+HOST,api3.byapps.net,Solana
+HOST,api3.bybdc6.com,Solana
+HOST,api3.byd3c3.com,Solana
+HOST,content.byabcd.com,Solana
+HOST,creative.myavlive.com,Solana
+HOST,exocharts.com,Solana
+HOST,graphigo.prd.galaxy.eco,Solana
+HOST,rpc.gravity.xyz,Solana
+HOST,tw.myrenta.com,Solana
+HOST,www.banyuetan.org,Solana
+HOST,media.solana-cdn.com,Global
+HOST,v3.tailwindcss.com,Global
+
+HOST-SUFFIX,amazonaws.com,Solana
+HOST-SUFFIX,binance.com,Solana
+HOST-SUFFIX,birdeye.so,Solana
+HOST-SUFFIX,brew.sh,Solana
+HOST-SUFFIX,bybit.com,Solana
+HOST-SUFFIX,cursor.sh,Solana
+HOST-SUFFIX,expo.dev,Solana
+HOST-SUFFIX,helium.com,Solana
+HOST-SUFFIX,helius-rpc.com,Solana
+HOST-SUFFIX,helius.dev,Solana
+HOST-SUFFIX,jsdelivr.net,Solana
+HOST-SUFFIX,jup.ag,Solana
+HOST-SUFFIX,moonpay.com,Solana
+HOST-SUFFIX,microsoft.com,Solana
+HOST-SUFFIX,near.org,Solana
+HOST-SUFFIX,npmjs.org,Solana
+HOST-SUFFIX,orca.so,Solana
+HOST-SUFFIX,phantom.app,Solana
+HOST-SUFFIX,pump.fun,Solana
+HOST-SUFFIX,rate-x.io,Solana
+HOST-SUFFIX,rpcpool.com,Solana
+HOST-SUFFIX,sanity.io,Solana
+HOST-SUFFIX,shadcn.com,Solana
+HOST-SUFFIX,solana.com,Solana
+HOST-SUFFIX,solflare.com,Solana
+HOST-SUFFIX,solscan.io,Solana
+HOST-SUFFIX,stepn.com,Solana
+HOST-SUFFIX,tensor.trade,Solana
+HOST-SUFFIX,tiplink.io,Solana
+HOST-SUFFIX,tradingview.com,Solana
+HOST-SUFFIX,visualstudio.com,Solana
+HOST-SUFFIX,azure.com,direct

@@ -1,19 +1,23 @@
 # NAME: Apple
 # AUTHOR: Roy
 # REPO: https://github.com/iRoySwift
-# UPDATED: 2024-09-26 10:39:26
+# UPDATED: 2025-04-05 10:32:56
 # HOST: 5
 # HOST-KEYWORD: 0
-# HOST-SUFFIX: 1
+# HOST-SUFFIX: 3
 # HOST-WILDCARD: 0
 # IP-CIDR: 0
-# USER-AGENT: 0
-# TOTAL: 6
+# USER-AGENT: 2
+# TOTAL: 10
 
-HOST, gitbook.swiftgg.team, Apple
-HOST, updates.cdn-apple.com, Apple
-HOST, is1-ssl.mzstatic.com, Apple
-HOST, gateway.icloud.com, 自动选择
-HOST, direction2.is.autonavi.com, direct
+HOST,direction2.is.autonavi.com,direct
 HOST,dispatcher.is.autonavi.com,direct
+HOST,gateway.icloud.com,Apple
+HOST,gitbook.swiftgg.team,Apple
+HOST,is1-ssl.mzstatic.com,Apple
+HOST,updates.cdn-apple.com,Apple
 HOST-SUFFIX,apple.com,Apple
+HOST-SUFFIX,apple.news,Apple
+HOST-SUFFIX,applemusic.com,Apple
+USER-AGENT,AppleTV*,Apple
+USER-AGENT,com.apple.tv*,Apple

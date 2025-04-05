@@ -10,83 +10,10 @@
 # IP6-CIDR: 6
 # USER-AGENT: 69
 # TOTAL: 2304
-
-HOST, a.delivery.consentmanager.net, GlobalMedia
-HOST, age456.cc, GlobalMedia
-HOST, api.svc.taiwanmedia.org, GlobalMedia
-HOST, app-analytics-services.com, GlobalMedia
-HOST, app.galxe.com, GlobalMedia
-HOST, b-hls-17.sacdnssedge.com, GlobalMedia
-HOST, b-hls-25.doppiocdn.net, GlobalMedia
-HOST, b.galxestatic.com, GlobalMedia
-HOST, cdi.ofiii.com, GlobalMedia
-HOST, cdn.branch.io, GlobalMedia
-HOST, cdn.consentmanager.net, GlobalMedia
-HOST, cdn.oaistatic.com, GlobalMedia
-HOST, delivery.consentmanager.net, GlobalMedia
-HOST, edge-hls.doppiocdn.com, GlobalMedia
-HOST, edge-hls.doppiocdn.net, GlobalMedia
-HOST, freestrip.chat, GlobalMedia
-HOST, fridayvideo.api.useinsider.com, GlobalMedia
-HOST, go.rmzsglng.com, GlobalMedia
-HOST, i1.cdn-image.com, GlobalMedia
-HOST, i2.cdn-image.com, GlobalMedia
-HOST, i3.cdn-image.com, GlobalMedia
-HOST, img.ffzy888.com, GlobalMedia
-HOST, k8dm.com, GlobalMedia
-HOST, logos.skyscnr.com, GlobalMedia
-HOST, missav.ws, GlobalMedia
-HOST, mmbiz.qpic.cn, GlobalMedia
-HOST, nano.nachoneko.cn, GlobalMedia
-HOST, nnyy.in, GlobalMedia
-HOST, p0.ssl.qhimg.com, GlobalMedia
-HOST, s.magsrv.com, GlobalMedia
-HOST, s1-a1.global-cdn.me, GlobalMedia
-HOST, s1-e1.arebyte.xyz, GlobalMedia
-HOST, s1-e1.bitwayeat.com, GlobalMedia
-HOST, s1-e1.sbacii.com, GlobalMedia
-HOST, s1-e1.timeprecei.com, GlobalMedia
-HOST, s6-e1.bitwayeat.com, GlobalMedia
-HOST, s6-e1.etcbbf.xyz, GlobalMedia
-HOST, s6-e1.etcbbh.xyz, GlobalMedia
-HOST, s6-e1.generalcdn.com, GlobalMedia
-HOST, s6-e1.newyvpa.com, GlobalMedia
-HOST, s6-e1.tfbgaaa.com, GlobalMedia
-HOST, s6-e1.tfbgbbb.com, GlobalMedia
-HOST, s6-e1.tfbgccc.com, GlobalMedia
-HOST, s6-e1.tfbgddd.com, GlobalMedia
-HOST, s6-e1.tfbgeee.com, GlobalMedia
-HOST, s6-e1.tfboyaaa.com, GlobalMedia
-HOST, s6-e1.tfboyaab.com, GlobalMedia
-HOST, s6-e1.tfboyaac.com, GlobalMedia
-HOST, s6-e1.tfboyaad.com, GlobalMedia
-HOST, s7-e1.tfboyaad.com, GlobalMedia
-HOST, s7.addthis.com, GlobalMedia
-HOST, sb.scorecardresearch.com, GlobalMedia
-HOST, shield.lightprotocol.com, GlobalMedia
-HOST, static.wyav.tv, GlobalMedia
-HOST, static.yfsp.tv, GlobalMedia
-HOST, stripcash.com, GlobalMedia
-HOST, tracker.iriseden.fr, GlobalMedia
-HOST, tracker.nitrix.me, GlobalMedia
-HOST, tracker2.itzmx.com, GlobalMedia
-HOST, trk.publictracker.xyz, GlobalMedia
-HOST, video.saawsedge.com, GlobalMedia
-HOST, vip.ffzy-play2.com, GlobalMedia
-HOST, vip1.lz-cdn5.com, GlobalMedia
-HOST, w.anygate.vip, GlobalMedia
-HOST, ww1.senfun.net, GlobalMedia
-HOST, www.13dm.cc, GlobalMedia
-HOST, www.kkday.com, GlobalMedia
-HOST, www.mckinsey.com.cn, GlobalMedia
-HOST, www.miliav.com, GlobalMedia
-HOST, www.qkan8.comhttps, GlobalMedia
-HOST, www.ttkmh.com, GlobalMedia
-HOST, xhlive.cam, GlobalMedia
-HOST, xlpc-sentry.xunlei.com, GlobalMedia
 HOST,akmcdnoversea-tw.inter.ptqy.gitv.tv,GlobalMedia
 HOST,api.okzy.tv,GlobalMedia
 HOST,apm-misaka.biliapi.net,GlobalMedia
+HOST,cache.video.iqiyi.com,GlobalMedia
 HOST,chuangcachecdnoversea-tw.inter.ptqy.gitv.tv,GlobalMedia
 HOST,cs428.wpc.edgecastcdn.net,GlobalMedia
 HOST,daznfeeds.com.edgekey.net,GlobalMedia
@@ -98,27 +25,89 @@ HOST,hamifans.emome.net,GlobalMedia
 HOST,hulu.com.c.footprint.net,GlobalMedia
 HOST,hulu.map.fastly.net,GlobalMedia
 HOST,images-daznservices-com.cdn.ampproject.org,GlobalMedia
+HOST,ktpx.amazon.com,GlobalMedia
 HOST,rpg.pic-imges.com,GlobalMedia
-HOST-KEYWORD,apiproxy-device-prod-nlb-,GlobalMedia
-HOST-KEYWORD,avoddashs,GlobalMedia
-HOST-KEYWORD,bbcfmt,GlobalMedia
-HOST-KEYWORD,discovery.uplynk.com,GlobalMedia
-HOST-KEYWORD,dualstack.apiproxy-,GlobalMedia
-HOST-KEYWORD,dualstack.ichnaea-web-,GlobalMedia
-HOST-KEYWORD,hbogoasia,GlobalMedia
-HOST-KEYWORD,japonx,GlobalMedia
-HOST-KEYWORD,japronx,GlobalMedia
-HOST-KEYWORD,jooxweb-api,GlobalMedia
-HOST-KEYWORD,nivod,GlobalMedia
-HOST-KEYWORD,nowtv100,GlobalMedia
-HOST-KEYWORD,olevod,GlobalMedia
-HOST-KEYWORD,rthklive,GlobalMedia
-HOST-KEYWORD,tiktokcdn,GlobalMedia
-HOST-KEYWORD,ttvnw,GlobalMedia
-HOST-KEYWORD,tvbanywhere,GlobalMedia
-HOST-KEYWORD,uk-live,GlobalMedia
-HOST-KEYWORD,voddazn,GlobalMedia
-HOST-SUFFIX,.com,GlobalMedia
+HOST, api.ffbbbdc6d3c353211fe2ba39c9f744cd.com, GlobalMedia
+HOST, api.svc.taiwanmedia.org, GlobalMedia
+HOST, app-analytics-services.com, GlobalMedia
+HOST, app.galxe.com, GlobalMedia
+HOST, b-hls-17.sacdnssedge.com, GlobalMedia
+HOST, b-hls-25.doppiocdn.net, GlobalMedia
+HOST, b.galxestatic.com, GlobalMedia
+HOST, cdi.ofiii.com, GlobalMedia
+HOST, cdn.branch.io, GlobalMedia
+HOST, cdn.oaistatic.com, GlobalMedia
+HOST, edge-hls.doppiocdn.com, GlobalMedia
+HOST, edge-hls.doppiocdn.net, GlobalMedia
+HOST, freestrip.chat, GlobalMedia
+HOST, fridayvideo.api.useinsider.com, GlobalMedia
+HOST, go.rmzsglng.com, GlobalMedia
+HOST, logos.skyscnr.com, GlobalMedia
+HOST, missav.ws, GlobalMedia
+HOST, mmbiz.qpic.cn, GlobalMedia
+HOST, nano.nachoneko.cn, GlobalMedia
+HOST, nnyy.in, GlobalMedia
+HOST, s.magsrv.com, GlobalMedia
+HOST, s1-a1.global-cdn.me, GlobalMedia
+HOST, s1-e1.arebyte.xyz, GlobalMedia
+HOST, s1-e1.bitwayeat.com, GlobalMedia
+HOST, s1-e1.sbacii.com, GlobalMedia
+HOST, s1-e1.timeprecei.com, GlobalMedia
+HOST, s6-e1.etcbbf.xyz, GlobalMedia
+HOST, s6-e1.etcbbh.xyz, GlobalMedia
+HOST, s6-e1.generalcdn.com, GlobalMedia
+HOST, s6-e1.newyvpa.com, GlobalMedia
+HOST, s6-e1.tfbgaaa.com, GlobalMedia
+HOST, s6-e1.tfbgccc.com, GlobalMedia
+HOST, s6-e1.tfbgddd.com, GlobalMedia
+HOST, s6-e1.tfbgeee.com, GlobalMedia
+HOST, s6-e1.tfboyaaa.com, GlobalMedia
+HOST, s6-e1.tfboyaab.com, GlobalMedia
+HOST, s6-e1.tfboyaac.com, GlobalMedia
+HOST, s6-e1.tfboyaad.com, GlobalMedia
+HOST, s7.addthis.com, GlobalMedia
+HOST, sb.scorecardresearch.com, GlobalMedia
+HOST, shield.lightprotocol.com, GlobalMedia
+HOST, static.yfsp.tv, GlobalMedia
+HOST, stripcash.com, GlobalMedia
+HOST, video.saawsedge.com, GlobalMedia
+HOST, vip.ffzy-play2.com, GlobalMedia
+HOST, w.anygate.vip, GlobalMedia
+HOST, www.kkday.com, GlobalMedia
+HOST, www.mckinsey.com.cn, GlobalMedia
+HOST, www.ttkmh.com, GlobalMedia
+HOST, xhlive.cam, GlobalMedia
+HOST, s6-e1.bitwayeat.com, GlobalMedia
+HOST, s7-e1.tfboyaad.com, GlobalMedia
+HOST, vip1.lz-cdn5.com, GlobalMedia
+HOST, s6-e1.tfbgbbb.com, GlobalMedia
+HOST, i1.cdn-image.com, GlobalMedia
+HOST, delivery.consentmanager.net, GlobalMedia
+HOST, i3.cdn-image.com, GlobalMedia
+HOST, a.delivery.consentmanager.net, GlobalMedia
+HOST, cdn.consentmanager.net, GlobalMedia
+HOST, i2.cdn-image.com, GlobalMedia
+HOST, ww1.senfun.net, GlobalMedia
+HOST, glitchtip.anime1.me, GlobalMedia
+HOST, nemo.v.anime1.me, GlobalMedia
+HOST, pt.anime1.me, GlobalMedia
+HOST, glitchtip.anime1.me, GlobalMedia
+HOST, v.anime1.me, GlobalMedia
+HOST, sta.anicdn.com, GlobalMedia
+HOST, anime1.me, GlobalMedia
+HOST, static.wyav.tv, GlobalMedia
+HOST, www.qkan8.comhttps, GlobalMedia
+HOST, k8dm.com, GlobalMedia
+HOST, www.miliav.com, GlobalMedia
+HOST, img.ffzy888.com, GlobalMedia
+HOST, age456.cc, GlobalMedia
+HOST, p0.ssl.qhimg.com, GlobalMedia
+HOST, www.13dm.cc, GlobalMedia
+HOST, xlpc-sentry.xunlei.com, GlobalMedia
+HOST, tracker.iriseden.fr, GlobalMedia
+HOST, trk.publictracker.xyz, GlobalMedia
+HOST, tracker.nitrix.me, GlobalMedia
+HOST, tracker2.itzmx.com, GlobalMedia
 HOST-SUFFIX,112263.com,GlobalMedia
 HOST-SUFFIX,20thcenturystudios.com.au,GlobalMedia
 HOST-SUFFIX,20thcenturystudios.com.br,GlobalMedia
@@ -130,6 +119,7 @@ HOST-SUFFIX,abc.com,GlobalMedia
 HOST-SUFFIX,abema-tv.com,GlobalMedia
 HOST-SUFFIX,abema.io,GlobalMedia
 HOST-SUFFIX,abema.tv,GlobalMedia
+HOST-SUFFIX,aboutamazon.com,GlobalMedia
 HOST-SUFFIX,adobedtm.com,GlobalMedia
 HOST-SUFFIX,adventuresbydisney.com,GlobalMedia
 HOST-SUFFIX,adx.promo,GlobalMedia
@@ -165,6 +155,14 @@ HOST-SUFFIX,api.tv.colnv.com,GlobalMedia
 HOST-SUFFIX,att.tv,GlobalMedia
 HOST-SUFFIX,atttvnow.com,GlobalMedia
 HOST-SUFFIX,attwatchtv.com,GlobalMedia
+HOST-SUFFIX,atv-ext-eu.amazon.com,GlobalMedia
+HOST-SUFFIX,atv-ext-fe.amazon.com,GlobalMedia
+HOST-SUFFIX,atv-ext.amazon.com,GlobalMedia
+HOST-SUFFIX,atv-ps-eu.amazon.co.uk,GlobalMedia
+HOST-SUFFIX,atv-ps-eu.amazon.com,GlobalMedia
+HOST-SUFFIX,atv-ps-fe.amazon.co.jp,GlobalMedia
+HOST-SUFFIX,atv-ps-fe.amazon.com,GlobalMedia
+HOST-SUFFIX,atv-ps.amazon.com,GlobalMedia
 HOST-SUFFIX,babble.com,GlobalMedia
 HOST-SUFFIX,babyzone.com,GlobalMedia
 HOST-SUFFIX,bahamut.com.tw,GlobalMedia
@@ -418,6 +416,7 @@ HOST-SUFFIX,fast.com,GlobalMedia
 HOST-SUFFIX,fetnet.net,GlobalMedia
 HOST-SUFFIX,findyourlimits.com,GlobalMedia
 HOST-SUFFIX,firebaseio.com,GlobalMedia
+HOST-SUFFIX,fls-na.amazon.com,GlobalMedia
 HOST-SUFFIX,flxvpn.net,GlobalMedia
 HOST-SUFFIX,formula1.com,GlobalMedia
 HOST-SUFFIX,forthethrone.com,GlobalMedia
@@ -605,18 +604,13 @@ HOST-SUFFIX,fxnetworks.com,GlobalMedia
 HOST-SUFFIX,gamer.com.tw,GlobalMedia
 HOST-SUFFIX,geraldoatlarge.com,GlobalMedia
 HOST-SUFFIX,getblueshift.com,GlobalMedia
-HOST-SUFFIX,ggpht.cn,GlobalMedia
-HOST-SUFFIX,ggpht.com,GlobalMedia
 HOST-SUFFIX,glasamerike.net,GlobalMedia
 HOST-SUFFIX,go-disneyworldgo.com,GlobalMedia
 HOST-SUFFIX,go.com,GlobalMedia
 HOST-SUFFIX,golos-ameriki.ru,GlobalMedia
 HOST-SUFFIX,golosameriki.com,GlobalMedia
 HOST-SUFFIX,gooddaychicago.com,GlobalMedia
-HOST-SUFFIX,googlevideo.com,GlobalMedia
 HOST-SUFFIX,gorin.jp,GlobalMedia
-HOST-SUFFIX,gvt1.com,GlobalMedia
-HOST-SUFFIX,gvt2.com,GlobalMedia
 HOST-SUFFIX,haiwaikan.com,GlobalMedia
 HOST-SUFFIX,happyon.jp,GlobalMedia
 HOST-SUFFIX,hath.network,GlobalMedia
@@ -706,6 +700,10 @@ HOST-SUFFIX,imkan.tv,GlobalMedia
 HOST-SUFFIX,indazn.com,GlobalMedia
 HOST-SUFFIX,indaznlab.com,GlobalMedia
 HOST-SUFFIX,insidevoa.com,GlobalMedia
+HOST-SUFFIX,inter.iqiyi.com,GlobalMedia
+HOST-SUFFIX,intl-rcd.iqiyi.com,GlobalMedia
+HOST-SUFFIX,intl-subscription.iqiyi.com,GlobalMedia
+HOST-SUFFIX,intl.iqiyi.com,GlobalMedia
 HOST-SUFFIX,iole.tv,GlobalMedia
 HOST-SUFFIX,ipstatp.com,GlobalMedia
 HOST-SUFFIX,iq.com,GlobalMedia
@@ -769,6 +767,7 @@ HOST-SUFFIX,marvelsuperwar.com,GlobalMedia
 HOST-SUFFIX,maskedsingerfox.com,GlobalMedia
 HOST-SUFFIX,max.com,GlobalMedia
 HOST-SUFFIX,maxgo.com,GlobalMedia
+HOST-SUFFIX,media-amazon.com,GlobalMedia
 HOST-SUFFIX,meridian.net,GlobalMedia
 HOST-SUFFIX,mewatch.sg,GlobalMedia
 HOST-SUFFIX,mickey.tv,GlobalMedia
@@ -990,6 +989,7 @@ HOST-SUFFIX,speedfantasybid.com,GlobalMedia
 HOST-SUFFIX,speedracegear.com,GlobalMedia
 HOST-SUFFIX,speedxtra.com,GlobalMedia
 HOST-SUFFIX,spoti.fi,GlobalMedia
+HOST-SUFFIX,.com,GlobalMedia
 HOST-SUFFIX,spotilocal.com,GlobalMedia
 HOST-SUFFIX,star-brasil.com,GlobalMedia
 HOST-SUFFIX,star-latam.com,GlobalMedia
@@ -1056,7 +1056,6 @@ HOST-SUFFIX,viacomcbs.com,GlobalMedia
 HOST-SUFFIX,viacomcbspressexpress.com,GlobalMedia
 HOST-SUFFIX,viblast.com,GlobalMedia
 HOST-SUFFIX,video.a2z.com,GlobalMedia
-HOST-SUFFIX,video.google.com,GlobalMedia
 HOST-SUFFIX,videos-f.jwpsrv.com,GlobalMedia
 HOST-SUFFIX,vidol.tv,GlobalMedia
 HOST-SUFFIX,viki.com,GlobalMedia
@@ -1128,9 +1127,6 @@ HOST-SUFFIX,wogx.com,GlobalMedia
 HOST-SUFFIX,wwwhuluplus.com,GlobalMedia
 HOST-SUFFIX,yb.uncn.jp,GlobalMedia
 HOST-SUFFIX,youboranqs01.com,GlobalMedia
-HOST-SUFFIX,youtu.be,GlobalMedia
-HOST-SUFFIX,yt.be,GlobalMedia
-HOST-SUFFIX,ytimg.com,GlobalMedia
 HOST-SUFFIX,z5.app,GlobalMedia
 HOST-SUFFIX,z5.com,GlobalMedia
 HOST-SUFFIX,zee5.com,GlobalMedia
@@ -1142,21 +1138,45 @@ HOST-SUFFIX,zeetv.com,GlobalMedia
 HOST-SUFFIX,zeeuk.com,GlobalMedia
 HOST-SUFFIX,zeriamerikes.com,GlobalMedia
 HOST-SUFFIX,zype.com,GlobalMedia
+HOST-SUFFIX,ggpht.cn,GlobalMedia
+HOST-SUFFIX,ggpht.com,GlobalMedia
+HOST-SUFFIX,googlevideo.com,GlobalMedia
+HOST-SUFFIX,gvt1.com,GlobalMedia
+HOST-SUFFIX,gvt2.com,GlobalMedia
+HOST-SUFFIX,video.google.com,GlobalMedia
+HOST-SUFFIX,youtu.be,GlobalMedia
+
+HOST-SUFFIX,yt.be,GlobalMedia
+HOST-SUFFIX,ytimg.com,GlobalMedia
+HOST-KEYWORD,apiproxy-device-prod-nlb-,GlobalMedia
+HOST-KEYWORD,avoddashs,GlobalMedia
+HOST-KEYWORD,bbcfmt,GlobalMedia
+HOST-KEYWORD,discovery.uplynk.com,GlobalMedia
+HOST-KEYWORD,dualstack.apiproxy-,GlobalMedia
+HOST-KEYWORD,dualstack.ichnaea-web-,GlobalMedia
+HOST-KEYWORD,hbogoasia,GlobalMedia
+HOST-KEYWORD,japonx,GlobalMedia
+HOST-KEYWORD,japronx,GlobalMedia
+HOST-KEYWORD,jooxweb-api,GlobalMedia
+HOST-KEYWORD,nivod,GlobalMedia
+HOST-KEYWORD,nowtv100,GlobalMedia
+HOST-KEYWORD,olevod,GlobalMedia
+HOST-KEYWORD,rthklive,GlobalMedia
+HOST-KEYWORD,tiktokcdn,GlobalMedia
+HOST-KEYWORD,ttvnw,GlobalMedia
+HOST-KEYWORD,tvbanywhere,GlobalMedia
+HOST-KEYWORD,uk-live,GlobalMedia
+HOST-KEYWORD,voddazn,GlobalMedia
 USER-AGENT,AbemaTV*,GlobalMedia
 USER-AGENT,All4*,GlobalMedia
 USER-AGENT,Anime*,GlobalMedia
-USER-AGENT,app/bstar*,GlobalMedia
 USER-AGENT,Argo*,GlobalMedia
 USER-AGENT,BBCiPlayer*,GlobalMedia
-USER-AGENT,com.kktv*,GlobalMedia
-USER-AGENT,com.kktv.ios.kktv*,GlobalMedia
 USER-AGENT,DAZN*,GlobalMedia
+USER-AGENT,DPlus*,GlobalMedia
 USER-AGENT,Deezer*,GlobalMedia
-USER-AGENT,discovery+*,GlobalMedia
 USER-AGENT,Disney*,GlobalMedia
 USER-AGENT,Disney+*,GlobalMedia
-USER-AGENT,DPlus*,GlobalMedia
-USER-AGENT,encoreTVB*,GlobalMedia
 USER-AGENT,FOX%20NOW*,GlobalMedia
 USER-AGENT,FOXNOW*,GlobalMedia
 USER-AGENT,FOXPlus*,GlobalMedia
@@ -1167,11 +1187,11 @@ USER-AGENT,HBO*,GlobalMedia
 USER-AGENT,HBOGOPRODHKG*,GlobalMedia
 USER-AGENT,HBOMAX*,GlobalMedia
 USER-AGENT,HBONOW*,GlobalMedia
+USER-AGENT,HWTVMobile*,GlobalMedia
 USER-AGENT,Himalaya*,GlobalMedia
 USER-AGENT,Hulu*,GlobalMedia
-USER-AGENT,HWTVMobile*,GlobalMedia
-USER-AGENT,InstantVideo.US*,GlobalMedia
 USER-AGENT,ITV_Player*,GlobalMedia
+USER-AGENT,InstantVideo.US*,GlobalMedia
 USER-AGENT,JOOX*,GlobalMedia
 USER-AGENT,KKTV*,GlobalMedia
 USER-AGENT,LINE%20TV*,GlobalMedia
@@ -1179,27 +1199,32 @@ USER-AGENT,LINE*,GlobalMedia
 USER-AGENT,LINETV*,GlobalMedia
 USER-AGENT,Max*,GlobalMedia
 USER-AGENT,My5*,GlobalMedia
-USER-AGENT,mytv*,GlobalMedia
 USER-AGENT,Naver%20TV*,GlobalMedia
 USER-AGENT,NaverTV*,GlobalMedia
 USER-AGENT,Niconico*,GlobalMedia
 USER-AGENT,Overcast*,GlobalMedia
-USER-AGENT,Pandora*,GlobalMedia
 USER-AGENT,PBS*,GlobalMedia
-USER-AGENT,PeacockMobile*,GlobalMedia
 USER-AGENT,PPlus*,GlobalMedia
+USER-AGENT,Pandora*,GlobalMedia
+USER-AGENT,PeacockMobile*,GlobalMedia
 USER-AGENT,Prime%20Video*,GlobalMedia
 USER-AGENT,PrimeVideo*,GlobalMedia
 USER-AGENT,SoundCloud*,GlobalMedia
-USER-AGENT,TaiwanGood*,GlobalMedia
 USER-AGENT,TIDAL*,GlobalMedia
 USER-AGENT,TIDAL*dia,GlobalMedia
-USER-AGENT,TikTok*,GlobalMedia
 USER-AGENT,TVer-Release*,GlobalMedia
+USER-AGENT,TaiwanGood*,GlobalMedia
+USER-AGENT,TikTok*,GlobalMedia
 USER-AGENT,Viu*,GlobalMedia
 USER-AGENT,ViuTV*,GlobalMedia
 USER-AGENT,WeMusic*,GlobalMedia
 USER-AGENT,WeTV*,GlobalMedia
+USER-AGENT,app/bstar*,GlobalMedia
+USER-AGENT,com.kktv*,GlobalMedia
+USER-AGENT,com.kktv.ios.kktv*,GlobalMedia
+USER-AGENT,discovery+*,GlobalMedia
+USER-AGENT,encoreTVB*,GlobalMedia
+USER-AGENT,mytv*,GlobalMedia
 IP-CIDR,1.201.0.0/24,GlobalMedia
 IP-CIDR,1.37.35.6/32,GlobalMedia
 IP-CIDR,101.100.179.242/32,GlobalMedia

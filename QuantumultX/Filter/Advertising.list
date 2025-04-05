@@ -571,7 +571,6 @@ HOST,api.ad.xiaomi.com
 HOST,api.adnet.mob.com
 HOST,api-ad.kajicam.com
 HOST,appnext.hs.llnwd.net
-HOST,appnext-a.akamaihd.net
 HOST,business-cdn.shouji.sogou.com
 HOST,cf-ads.pinger.com
 HOST,dsp.fcbox.com
@@ -584,7 +583,6 @@ HOST,mads.suning.com
 HOST,mopnativeadv.037201.com
 HOST,nativeadv.dftoutiao.com
 HOST,saad.ms.zhangyue.net
-HOST,toots-a.akamaihd.net
 HOST,videoads-cloud.rovio.com
 HOST,video-ads-module.ad-tech.nbcuni.com
 

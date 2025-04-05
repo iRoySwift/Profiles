@@ -11,7 +11,6 @@
 # USER-AGENT: 31
 # TOTAL: 3753
 HOST,analytics.strava.com,China
-HOST,blzddist1-a.akamaihd.net,China
 HOST,cdn.angruo.com,China
 HOST,client.amplifi.com,China
 HOST,download.jetbrains.com,China
@@ -19,9 +18,7 @@ HOST,images-cn.ssl-images-amazon.com,China
 HOST,ip.istatmenus.app,China
 HOST,kc.kexinshe.com,China
 HOST,origin-a.akamaihd.ne,China
-HOST,origin-a.akamaihd.net,China
 HOST,sms.imagetasks.com,China
-HOST,steamcommunity-a.akamaihd.net,China
 HOST,weixin.com,China
 HOST,www.libvideo.com,China
 HOST,www.yxssp.com,China
@@ -2315,8 +2312,6 @@ HOST-SUFFIX,miaomiaozhe.com,China
 HOST-SUFFIX,miaopai.com,China
 HOST-SUFFIX,miaostreet.com,China
 HOST-SUFFIX,miaozhen.com,China
-HOST-SUFFIX,microsoft.com,China
-HOST-SUFFIX,microsoftonline.com,China
 HOST-SUFFIX,midasbuy.com,China
 HOST-SUFFIX,miercn.com,China
 HOST-SUFFIX,migucloud.com,China
@@ -2740,7 +2735,6 @@ HOST-SUFFIX,ruguoapp.com,China
 HOST-SUFFIX,runoob.com,China
 HOST-SUFFIX,runsheng.com,China
 HOST-SUFFIX,rzrc114.com,China
-HOST-SUFFIX,s-microsoft.com,China
 HOST-SUFFIX,s-reader.com,China
 HOST-SUFFIX,sa-brazil-1.myhuaweicloud.com,China
 HOST-SUFFIX,saasops.tech,China
@@ -3124,7 +3118,6 @@ HOST-SUFFIX,trellocdn.com,China
 HOST-SUFFIX,trip.com,China
 HOST-SUFFIX,tripcdn.com,China
 HOST-SUFFIX,trunktech.com,China
-HOST-SUFFIX,trustexporter.com,China
 HOST-SUFFIX,trustutn.org,China
 HOST-SUFFIX,tsparkling.com,China
 HOST-SUFFIX,ttmeiju.com,China
@@ -3255,7 +3248,6 @@ HOST-SUFFIX,vipdlt.com,China
 HOST-SUFFIX,vipexam.org,China
 HOST-SUFFIX,vipmro.com,China
 HOST-SUFFIX,vipmro.net,China
-HOST-SUFFIX,visualstudio.com,China
 HOST-SUFFIX,vmall.com,China
 HOST-SUFFIX,vmallres.com,China
 HOST-SUFFIX,vobao.com,China

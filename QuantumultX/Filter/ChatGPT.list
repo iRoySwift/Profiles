@@ -1,7 +1,7 @@
 # NAME: ChatGPT
 # AUTHOR: Roy
 # REPO: https://github.com/iRoySwift
-# UPDATED: 2024-06-06 16:32:56
+# UPDATED: 2025-04-05 10:32:56
 # HOST: 0
 # HOST-KEYWORD: 0
 # HOST-SUFFIX: 2
@@ -10,5 +10,6 @@
 # IP6-CIDR: 0
 # USER-AGENT: 0
 # TOTAL: 2
+
 HOST-SUFFIX,openai.com,ChatGPT
 HOST-SUFFIX,chatgpt.com,ChatGPT

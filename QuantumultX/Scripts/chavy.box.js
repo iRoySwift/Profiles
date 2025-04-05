@@ -364,18 +364,18 @@ function getSystemCfgs() {
     version: $.version,
     versionType: $.versionType,
     envs: [
-      { id: 'Surge', icons: ['https://raw.githubusercontent.com/Orz-3/mini/none/surge.png', 'https://raw.githubusercontent.com/Orz-3/mini/master/Color/surge.png'] },
-      { id: 'QuanX', icons: ['https://raw.githubusercontent.com/Orz-3/mini/none/quanX.png', 'https://raw.githubusercontent.com/Orz-3/mini/master/Color/quantumultx.png'] },
-      { id: 'Loon', icons: ['https://raw.githubusercontent.com/Orz-3/mini/none/loon.png', 'https://raw.githubusercontent.com/Orz-3/mini/master/Color/loon.png'] },
-      { id: 'Shadowrocket', icons: ['https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/shadowrocket.png', 'https://raw.githubusercontent.com/Orz-3/mini/master/Color/shadowrocket.png'] },
-      { id: 'Stash', icons: ['https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/stash.png', 'https://raw.githubusercontent.com/Orz-3/mini/master/Color/stash.png'] }
+      { id: 'Surge', icons: ['https://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Icon/none/surge.png', 'https://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Icon/Color/surge.png'] },
+      { id: 'QuanX', icons: ['https://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Icon/none/quanX.png', 'https://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Iconfiles@main/Icon/Color/quantumultx.png'] },
+      { id: 'Loon', icons: ['https://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Icon/none/loon.png', 'https://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Iconfiles@main/Icon/Color/loon.png'] },
+      { id: 'Shadowrocket', icons: ['https://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Iconfiles@main/Icon/Alpha/shadowrockethttps://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Iconwift/Profiles@main/Icon/Color/shadowrocket.png'] },
+      { id: 'Stash', icons: ['https://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Iconfiles@main/Icon/Alpha/stashhttps://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Iconwift/Profiles@main/Icon/Color/stash.png'] }
     ],
     chavy: { id: 'ChavyLeung', icon: 'https://avatars3.githubusercontent.com/u/29748519', repo: 'https://github.com/chavyleung/scripts' },
     senku: { id: 'GideonSenku', icon: 'https://avatars1.githubusercontent.com/u/39037656', repo: 'https://github.com/GideonSenku' },
     id77: { id: 'id77', icon: 'https://avatars0.githubusercontent.com/u/9592236', repo: 'https://github.com/id77' },
-    orz3: { id: 'Orz-3', icon: 'https://raw.githubusercontent.com/Orz-3/mini/master/Color/Orz-3.png', repo: 'https://github.com/Orz-3/' },
-    boxjs: { id: 'BoxJs', show: false, icon: 'https://raw.githubusercontent.com/Orz-3/mini/master/Color/box.png', icons: ['https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/box.png', 'https://raw.githubusercontent.com/Orz-3/mini/master/Color/box.png'], repo: 'https://github.com/chavyleung/scripts' },
-    defaultIcons: ['https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/appstore.png', 'https://raw.githubusercontent.com/Orz-3/mini/master/Color/appstore.png']
+    orz3: { id: 'Orz-3', icon: 'https://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Iconfiles@main/Icon/Color/Orz-3.png', repo: 'https://github.com/Orz-3/' },
+    boxjs: { id: 'BoxJs', show: false, icon: 'https://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Iconfiles@main/Icon/Color/box.png', ihttps://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Iconwift/Profiles@main/Icon/Ahttps://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Icongh/iRoySwift/Profiles@main/Icon/Color/box.png'], repo: 'https://github.com/chavyleung/scripts' },
+    defaultIcons: ['https://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Iconfiles@main/Icon/Alpha/appstorehttps://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Iconwift/Profiles@main/Icon/Color/appstore.png']
   }
 }
 

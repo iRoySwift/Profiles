@@ -1,0 +1,46 @@
+{
+  "name": "mini+",
+  "description": "By Orz-3",
+  "icons": [
+    {
+      "name": "Personal",
+      "url": "https://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Icon/Alpha/Personal.png"
+    },
+    {
+      "name": "Team",
+      "url": "https://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Icon/Alpha/Team.png"
+    },
+    {
+      "name": "Enterprise",
+      "url": "https://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Icon/Alpha/Enterprise.png"
+    },
+    {
+      "name": "Piao",
+      "url": "https://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Icon/Alpha/Piao.png"
+    },
+    {
+      "name": "RIP",
+      "url": "https://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Icon/Alpha/RIP.png"
+    },
+    {
+      "name": "SS",
+      "url": "https://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Icon/Alpha/SS.png"
+    },
+    {
+      "name": "SSR",
+      "url": "https://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Icon/Alpha/SSR.png"
+    },
+    {
+      "name": "V2aray",
+      "url": "https://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Icon/Alpha/V2ray.png"
+    },
+    {
+      "name": "Trojan",
+      "url": "https://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Icon/Alpha/Trojan.png"
+    },
+    {
+      "name": "Vpn",
+      "url": "https://fastly.jsdelivr.net/gh/iRoySwift/Profiles@main/Icon/Alpha/Vpn.png"
+    }
+  ]
+}

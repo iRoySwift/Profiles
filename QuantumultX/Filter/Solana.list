@@ -22,9 +22,42 @@ HOST,graphigo.prd.galaxy.eco,Solana
 HOST,rpc.gravity.xyz,Solana
 HOST,tw.myrenta.com,Solana
 HOST,www.banyuetan.org,Solana
-HOST,media.solana-cdn.com,Global
-HOST,v3.tailwindcss.com,Global
-
+HOST, www.coinglass.com, Solana
+HOST, api-v3.rain.fi, Solana
+HOST, www.clarity.ms, Solana
+HOST, cdn.rain.fi, Solana
+HOST, app.rain.fi, Solana
+HOST, www.binance.com, Solana
+HOST, nbstream.binance.com, Solana
+HOST, accounts.binance.com, Solana
+HOST, stream.binance.com, Solana
+HOST, api.sumsub.com, Solana
+HOST, offers.coinlist.co, Solana
+HOST, coinlist.co, Solana
+HOST, api.fragmetric.xyz, Solana
+HOST, claim.solayer.foundation, Solana
+HOST, beacons.gcp.gvt2.com, Solana
+HOST, beacons.gvt2.com, Solana
+HOST, p-cdnstatic.svc.litv.tv, Solana
+HOST, p-cdnstatic.svc.litv.tv, Solana
+HOST, bulletin.svc.litv.tv, Solana
+HOST, acs2.svc.litv.tv, Solana
+HOST, api.svc.taiwanmedia.org, Solana
+HOST, adsv.svc.litv.tv, Solana
+HOST, ec2ca58c-7742-43b0-9c88-5d05e0f92c23.t.ssp.hinet.net, Solana
+HOST, t.ssp.hinet.net, Solana
+HOST, www.zaobao.com, Solana
+HOST, s.rfi.fr, Solana
+HOST, wvvw.rfi.fr, Solana
+HOST, api.poool.fr, Solana
+HOST, www.rfi.fr, Solana
+HOST,media.solana-cdn.com,Solana
+HOST,v3.tailwindcss.com,Solana
+HOST, amber-efficient-mandrill-369.mypinata.cloud, Solana
+HOST, www.btcfans.com, Solana
+HOST, rich01.com, Solana
+HOST, www.express.co.uk, Solana
+HOST, api.artemisxyz.com, Solana
 HOST-SUFFIX,amazonaws.com,Solana
 HOST-SUFFIX,binance.com,Solana
 HOST-SUFFIX,birdeye.so,Solana

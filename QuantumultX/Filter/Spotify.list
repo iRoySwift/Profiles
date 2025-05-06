@@ -1,0 +1,35 @@
+# NAME: Spotify
+# AUTHOR: Roy
+# REPO: https://github.com/iRoySwift
+# UPDATED: 2025-04-05 10:32:56
+# HOST: 3
+# HOST-KEYWORD: 4
+# HOST-SUFFIX: 30
+# HOST-WILDCARD: 1
+# IP-CIDR: 1115
+# IP6-CIDR: 4
+# USER-AGENT: 1
+# TOTAL: 1158
+
+HOST, o22381.ingest.us.sentry.io, Spotify
+HOST, login5.spotify.com, Spotify
+HOST, login5.spotify.com, Spotify
+HOST, o22381.ingest.us.sentry.io, Spotify
+HOST, gae2-dealer.g2.spotify.com, Spotify
+HOST, ap-gae2.spotify.com, Spotify
+HOST, image-cdn-ak.spotifycdn.com, Spotify
+HOST, ap-gae2.spotify.com, Spotify
+HOST, image-cdn-ak.spotifycdn.com, Spotify
+HOST, www.spotify.com, Spotify
+HOST, spotify.demdex.net, Spotify
+HOST, apresolve.spotify.com, Spotify
+HOST, pixel.spotify.com, Spotify
+HOST, gae2-spclient.spotify.com, Spotify
+HOST, spclient.wg.spotify.com, Spotify
+HOST, gae2-dealer.g2.spotify.com, Spotify
+HOST, api-partner.spotify.com, Spotify
+HOST, image-cdn-fa.spotifycdn.com, Spotify
+HOST, heads-fa-tls13.spotifycdn.com, Spotify
+HOST, video-akpcw.spotifycdn.com, Spotify
+HOST, pickasso.spotifycdn.com, Spotify
+HOST, thisis-images.spotifycdn.com, Spotify

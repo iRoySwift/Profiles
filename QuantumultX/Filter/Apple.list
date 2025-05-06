@@ -16,6 +16,10 @@ HOST,gateway.icloud.com,Apple
 HOST,gitbook.swiftgg.team,Apple
 HOST,is1-ssl.mzstatic.com,Apple
 HOST,updates.cdn-apple.com,Apple
+HOST, p174-content.icloud.com, Apple
+HOST, p39-fmfmobile.icloud.com, Apple
+HOST, metrics.icloud.com, Apple
+HOST, p39-quota.icloud.com, Apple
 HOST-SUFFIX,apple.com,Apple
 HOST-SUFFIX,apple.news,Apple
 HOST-SUFFIX,applemusic.com,Apple

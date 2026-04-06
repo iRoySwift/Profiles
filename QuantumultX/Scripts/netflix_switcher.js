@@ -20,6 +20,9 @@ let concurrency = parseInt($.getval("Helge_0x00.Netflix_Concurrency")) || 10;
     throw "该脚本仅支持在 Quantumult X 中运行";
   }
 
+  console.log("Netflix 策略切换启动");
+  console.log(`当前目标策略组：${policyName}`);
+
   let policies = await sendMessage({ action: "get_customized_policy" });
   if (!isValidPolicy(policies[policyName])) {
     policyName = lookupTargetPolicy(policies);
@@ -28,16 +31,18 @@ let concurrency = parseInt($.getval("Helge_0x00.Netflix_Concurrency")) || 10;
   }
 
   let curPolicyPath = await getSelectedPolicy(policyName);
+  if (!curPolicyPath || curPolicyPath.length <= 0) {
+    throw `未能读取策略组 ${policyName} 的当前状态`;
+  }
   let selected = curPolicyPath[1];
   let actualNode = curPolicyPath[curPolicyPath.length - 1];
-  if (debug) {
-    console.log(`当前选择的策略：${curPolicyPath.join(" ➤ ")}`);
-  }
+  console.log(`当前选择的策略：${curPolicyPath.join(" ➤ ")}`);
 
   let { region, status } = await test(actualNode);
   if (status === STATUS_FULL_AVAILABLE) {
     let flag = getCountryFlagEmoji(region) ?? "";
     let regionName = REGIONS?.[region.toUpperCase()]?.chinese ?? "";
+    console.log(`当前节点已完整支持 Netflix，无需切换 ➟ ${actualNode} (${flag}${regionName})`);
     $.msg(
       $.name,
       `${actualNode}`,
@@ -65,6 +70,10 @@ let concurrency = parseInt($.getval("Helge_0x00.Netflix_Concurrency")) || 10;
     console.log("cacheOriginalPolicies error: " + error);
     cacheOriginalPolicies = [];
   }
+
+  console.log(
+    `缓存可用节点：完整解锁 ${cacheFullPolicies.length} 个，仅自制剧 ${cacheOriginalPolicies.length} 个`
+  );
 
   let paths = lookupPath(policies, policyName);
   let nodes = new Set(
@@ -108,7 +117,11 @@ let concurrency = parseInt($.getval("Helge_0x00.Netflix_Concurrency")) || 10;
     "Helge_0x00.Netflix_Original_Available_Policies"
   );
 
-  if (cacheFullPolicies.length <= 0 && cacheOriginalPolicies <= 0) {
+  console.log(
+    `过滤当前策略树后的可用节点：完整解锁 ${cacheFullPolicies.length} 个，仅自制剧 ${cacheOriginalPolicies.length} 个`
+  );
+
+  if (cacheFullPolicies.length <= 0 && cacheOriginalPolicies.length <= 0) {
     throw "没有可用策略，请先运行 「Netflix 解锁检测」脚本";
   }
 
@@ -116,6 +129,9 @@ let concurrency = parseInt($.getval("Helge_0x00.Netflix_Concurrency")) || 10;
   if (cacheFullPolicies.length <= 0 && status === STATUS_ORIGINAL_AVAILABLE) {
     let flag = getCountryFlagEmoji(region) ?? "";
     let regionName = REGIONS?.[region.toUpperCase()]?.chinese ?? "";
+    console.log(
+      `当前节点仅支持自制剧，且没有更优节点，无需切换 ➟ ${actualNode} (${flag}${regionName})`
+    );
     $.msg(
       $.name,
       `${actualNode}`,
@@ -140,6 +156,7 @@ let concurrency = parseInt($.getval("Helge_0x00.Netflix_Concurrency")) || 10;
   for (let i = 0; i < switchPath.length - 1; i++) {
     switchDict[switchPath[i]] = switchPath[i + 1];
   }
+  console.log(`准备切换到策略路径：${switchPath.join(" ➤ ")}`);
   await setPolicyState(switchDict);
   console.log(
     `\n切换策略：${curPolicyPath.join(" ➤ ")} ➟ ${switchPath.join(" ➤ ")}`

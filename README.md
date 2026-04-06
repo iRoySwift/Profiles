@@ -181,6 +181,23 @@ rustc --crate-name filter_maintainer scripts/filter_maintainer.rs -O -o /tmp/fil
 
 说明：
 
+- 用于检查同文件、同策略下，哪些精确 `HOST` / `DOMAIN` 已经被现有 `HOST-SUFFIX` 或 `DOMAIN-SUFFIX` 覆盖。
+- 默认只检查，不修改文件。
+
+### 检查可能可由 HOST-WILDCARD 归并的 HOST-SUFFIX
+
+```bash
+/tmp/filter_maintainer check-wildcard-coverage
+```
+
+说明：
+
+- 用于报告“可能可由现有 `HOST-WILDCARD` 归并”的 `HOST-SUFFIX` 候选项。
+- 这是保守检查，不会自动删除规则。
+- 之所以只做候选提示，是因为 `HOST-SUFFIX` 与 `HOST-WILDCARD` 对子域的真实匹配语义未必完全等价，直接自动改写有风险。
+
+说明：
+
 - 只检查，不写回文件。
 - 用于找出同文件、同策略下，已经被 `HOST-SUFFIX` 或 `DOMAIN-SUFFIX` 覆盖的精确 `HOST` / `DOMAIN` 规则。
 - 适合在真正执行 `resolve-redundant-exacts --write` 之前先预览结果。

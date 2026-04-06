@@ -123,6 +123,18 @@ struct RedundantExactRule {
     covered_by_value: String,
 }
 
+#[derive(Clone, Debug)]
+struct WildcardCoverageCandidate {
+    // 所在文件名。
+    file: String,
+    // 被认为“可能可由通配规则归并”的 HOST-SUFFIX 值。
+    suffix_value: String,
+    // 对应策略名。
+    policy: String,
+    // 触发这个候选判断的 HOST-WILDCARD。
+    wildcard_value: String,
+}
+
 fn main() -> Result<(), Box<dyn std::error::Error>> {
     // 跳过程序名本身，只保留用户传入的参数。
     let args: Vec<String> = env::args().skip(1).collect();
@@ -173,6 +185,16 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
             let redundant_rules = collect_redundant_exact_rules(&docs);
             print_redundant_exact_rules(&redundant_rules);
             println!("total_redundant_exacts={}", redundant_rules.len());
+        }
+        "check-wildcard-coverage" => {
+            // 只报告“可能可以由 HOST-WILDCARD 归并”的 HOST-SUFFIX 候选项。
+            // 这里故意只做检查，不自动删除，因为 HOST-SUFFIX 与 HOST-WILDCARD
+            // 在不同客户端里的子域匹配语义可能并不完全等价。
+            let mut docs = load_documents(FILTER_DIR)?;
+            normalize_documents(&mut docs);
+            let candidates = collect_wildcard_coverage_candidates(&docs);
+            print_wildcard_coverage_candidates(&candidates);
+            println!("total_wildcard_coverage_candidates={}", candidates.len());
         }
         "resolve-redundant-exacts" => {
             // 删除这类冗余精确规则。
@@ -233,6 +255,7 @@ fn print_usage() {
     eprintln!("  /tmp/filter_maintainer normalize [--write]");
     eprintln!("  /tmp/filter_maintainer check-conflicts");
     eprintln!("  /tmp/filter_maintainer check-redundant-exacts");
+    eprintln!("  /tmp/filter_maintainer check-wildcard-coverage");
     eprintln!("  /tmp/filter_maintainer resolve-redundant-exacts [--write]");
     eprintln!("  /tmp/filter_maintainer resolve-exact-conflicts [--write]");
     eprintln!("  /tmp/filter_maintainer all [--write]");
@@ -720,6 +743,98 @@ fn resolve_redundant_exact_rules(docs: &mut [Document]) -> usize {
     }
 
     removed
+}
+
+fn collect_wildcard_coverage_candidates(docs: &[Document]) -> Vec<WildcardCoverageCandidate> {
+    // 这里只做“候选提示”：
+    // 如果同文件、同策略下，某条 HOST-SUFFIX 本身恰好能被现有 HOST-WILDCARD
+    // 的字面模式匹配到，就把它列出来供人工判断是否值得进一步归并。
+    // 之所以不直接自动删除，是因为 HOST-SUFFIX 通常还会覆盖子域，
+    // 而 HOST-WILDCARD 是否覆盖对应子域，需要按客户端真实语义确认。
+    let mut candidates = Vec::new();
+
+    for doc in docs {
+        let file = doc
+            .path
+            .file_name()
+            .and_then(|s| s.to_str())
+            .unwrap_or_default()
+            .to_string();
+
+        let wildcard_rules: Vec<&Rule> = doc
+            .rules
+            .iter()
+            .filter(|rule| rule.kind == "HOST-WILDCARD")
+            .collect();
+
+        for rule in &doc.rules {
+            // 这里只看 HOST-SUFFIX，因为用户当前关注的是 YouTube 这类域名后缀列表。
+            if rule.kind != "HOST-SUFFIX" {
+                continue;
+            }
+
+            let suffix_value = rule.value.to_ascii_lowercase();
+            for wildcard in &wildcard_rules {
+                // 必须同策略，避免跨策略误报。
+                if wildcard.policy != rule.policy {
+                    continue;
+                }
+
+                let wildcard_value = wildcard.value.to_ascii_lowercase();
+                if wildcard_matches_host_by_label(&wildcard_value, &suffix_value) {
+                    candidates.push(WildcardCoverageCandidate {
+                        file: file.clone(),
+                        suffix_value: rule.value.clone(),
+                        policy: rule.policy.clone().unwrap_or_default(),
+                        wildcard_value: wildcard.value.clone(),
+                    });
+                }
+            }
+        }
+    }
+
+    candidates
+}
+
+fn wildcard_matches_host_by_label(pattern: &str, host: &str) -> bool {
+    // 这里使用“保守匹配”：
+    // 1. 按 . 切成 label
+    // 2. 只有当两边 label 数量完全一致时才认为可能匹配
+    // 3. pattern 中的 * 仅代表“一个完整 label”
+    //
+    // 例如：
+    // - youtube.* 可以匹配 youtube.ae
+    // - youtube.*.* 可以匹配 youtube.co.uk
+    // - youtube.com.* 可以匹配 youtube.com.tw
+    // - 但不会把 youtube.* 视为覆盖 youtube.co.uk
+    // - 也不会把 youtube.* 视为覆盖 www.youtube.ae
+    let pattern_labels: Vec<&str> = pattern.split('.').collect();
+    let host_labels: Vec<&str> = host.split('.').collect();
+
+    if pattern_labels.len() != host_labels.len() {
+        return false;
+    }
+
+    pattern_labels
+        .iter()
+        .zip(host_labels.iter())
+        .all(|(pattern_label, host_label)| {
+            if *pattern_label == "*" {
+                !host_label.is_empty()
+            } else {
+                pattern_label.eq_ignore_ascii_case(host_label)
+            }
+        })
+}
+
+fn print_wildcard_coverage_candidates(candidates: &[WildcardCoverageCandidate]) {
+    // 打印“可能可归并”的候选项，便于先人工审视。
+    for candidate in candidates {
+        println!(
+            "{}: HOST-SUFFIX|{}|{} maybe_covered_by HOST-WILDCARD|{}",
+            candidate.file, candidate.suffix_value, candidate.policy, candidate.wildcard_value
+        );
+    }
 }
 
 fn resolve_exact_conflicts(docs: &mut [Document]) -> usize {

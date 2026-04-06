@@ -27,6 +27,7 @@
 - 各个过滤器文件的头部格式要统一标准化。
 - `UPDATED` 字段使用当前工作会话所在本地日期。
 - 头部字段优先使用统一顺序；即使某种规则类型不存在，也要保留对应的 `0` 计数字段。
+- 头部统计字段只保留当前 Quantumult X 实际使用的规则类型，不再单独展示 `DOMAIN` 系列计数头。
 - 头部注释格式要统一，不要混用历史上不同风格。
 - 清理冲突时，优先保留更具体的列表，并从更宽泛的列表中移除重复项或冲突项。
 - 如果同一文件中、同一策略下，某条精确 `HOST` 或 `DOMAIN` 规则已经被现有的 `HOST-SUFFIX` 或 `DOMAIN-SUFFIX` 覆盖，则优先删除该精确规则，使列表更简洁。
@@ -36,7 +37,7 @@
 - `HOST-KEYWORD` 是合法规则，不能因为它是一段式关键字匹配就错误删除。
 - 要保留合法的两段式规则，例如 `HOST-SUFFIX,example.com`，不能假设所有规则都一定带策略字段。
 - 要保留合法的附加字段，例如 `IP-CIDR,1.2.3.4/32,no-resolve`。
-- 统计和排序时，至少要支持以下规则类型：
+- 排序和解析时，至少要支持以下规则类型：
   - `HOST`
   - `DOMAIN`
   - `HOST-KEYWORD`
@@ -68,13 +69,9 @@
   - `REPO`
   - `UPDATED`
   - `HOST`
-  - `DOMAIN`
   - `HOST-KEYWORD`
-  - `DOMAIN-KEYWORD`
   - `HOST-SUFFIX`
-  - `DOMAIN-SUFFIX`
   - `HOST-WILDCARD`
-  - `DOMAIN-WILDCARD`
   - `IP-CIDR`
   - `IP6-CIDR`
   - `IP-CIDR6`

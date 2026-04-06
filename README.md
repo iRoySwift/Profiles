@@ -149,6 +149,7 @@ rustc --crate-name filter_maintainer scripts/filter_maintainer.rs -O -o /tmp/fil
 - 去除完全重复的规则。
 - 同步更新文件头部的统计值。
 - 自动补全缺失的标准计数字段，并将缺失项写为 `0`。
+- 头部统计不再单独展示 `DOMAIN` 系列字段。
 
 ### 清理精确冲突
 
@@ -195,12 +196,6 @@ rustc --crate-name filter_maintainer scripts/filter_maintainer.rs -O -o /tmp/fil
 - 用于报告“可能可由现有 `HOST-WILDCARD` 归并”的 `HOST-SUFFIX` 候选项。
 - 这是保守检查，不会自动删除规则。
 - 之所以只做候选提示，是因为 `HOST-SUFFIX` 与 `HOST-WILDCARD` 对子域的真实匹配语义未必完全等价，直接自动改写有风险。
-
-说明：
-
-- 只检查，不写回文件。
-- 用于找出同文件、同策略下，已经被 `HOST-SUFFIX` 或 `DOMAIN-SUFFIX` 覆盖的精确 `HOST` / `DOMAIN` 规则。
-- 适合在真正执行 `resolve-redundant-exacts --write` 之前先预览结果。
 
 ### 一次执行全部维护
 

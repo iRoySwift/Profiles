@@ -30,15 +30,13 @@ const RULE_ORDER: &[&str] = &[
 ];
 
 // 这些规则类型会被统计到头部计数中。
+// 头部统计只保留 Quantumult X 当前实际使用到的这些规则类型。
+// DOMAIN 系列规则即使正文里仍存在，也不再在头部单独展示。
 const COUNT_KEYS: &[&str] = &[
     "HOST",
-    "DOMAIN",
     "HOST-KEYWORD",
-    "DOMAIN-KEYWORD",
     "HOST-SUFFIX",
-    "DOMAIN-SUFFIX",
     "HOST-WILDCARD",
-    "DOMAIN-WILDCARD",
     "IP-CIDR",
     "IP6-CIDR",
     "IP-CIDR6",
@@ -52,13 +50,9 @@ const PREFERRED_HEADER_ORDER: &[&str] = &[
     "REPO",
     "UPDATED",
     "HOST",
-    "DOMAIN",
     "HOST-KEYWORD",
-    "DOMAIN-KEYWORD",
     "HOST-SUFFIX",
-    "DOMAIN-SUFFIX",
     "HOST-WILDCARD",
-    "DOMAIN-WILDCARD",
     "IP-CIDR",
     "IP6-CIDR",
     "IP-CIDR6",
@@ -490,14 +484,20 @@ fn update_header_counts(doc: &mut Document) {
             .insert((*key).to_string(), counts[key].to_string());
     }
 
-    // TOTAL 同样固定写入，避免有些旧文件缺失这个字段。
-    let total: usize = COUNT_KEYS.iter().map(|key| counts[key]).sum();
+    // TOTAL 直接取正文规则总数。
+    // 这样即使正文里还存在 DOMAIN 系列规则，TOTAL 也仍然准确。
+    let total = doc.rules.len();
     doc.header
         .key_values
         .insert("TOTAL".to_string(), total.to_string());
 }
 
 fn normalize_header_format(doc: &mut Document) {
+    // 先删除已经废弃的 DOMAIN 系列头部字段，避免它们在旧文件里继续残留。
+    for obsolete_key in ["DOMAIN", "DOMAIN-KEYWORD", "DOMAIN-SUFFIX", "DOMAIN-WILDCARD"] {
+        doc.header.key_values.remove(obsolete_key);
+    }
+
     // 先确保推荐顺序中的关键头部都存在。
     // 这样后面渲染时就能稳定输出统一格式，而不会因为旧文件缺字段而跳过。
     for key in PREFERRED_HEADER_ORDER {

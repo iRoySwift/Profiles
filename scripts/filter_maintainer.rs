@@ -8,6 +8,8 @@ use std::fs;
 use std::io;
 // Path / PathBuf 用来处理文件路径。
 use std::path::{Path, PathBuf};
+// 调用系统 date 命令，获取当前本地日期。
+use std::process::Command;
 
 // 这是要维护的目标目录。
 const FILTER_DIR: &str = "QuantumultX/Filter";
@@ -59,6 +61,11 @@ const PREFERRED_HEADER_ORDER: &[&str] = &[
     "USER-AGENT",
     "TOTAL",
 ];
+
+// 常见的“公共二级后缀”前缀。
+// 例如 com.tw / co.uk 这类值本身更像公共后缀，而不是具体站点父域，
+// 自动归并成 HOST-SUFFIX,com.tw 往往会过宽，因此这里先排除。
+const COMMON_PUBLIC_SUFFIX_PREFIXES: &[&str] = &["ac", "co", "com", "edu", "gov", "mil", "net", "org"];
 
 #[derive(Clone, Debug)]
 struct Rule {
@@ -129,6 +136,18 @@ struct WildcardCoverageCandidate {
     wildcard_value: String,
 }
 
+#[derive(Clone, Debug)]
+struct HostSuffixMergeCandidate {
+    // 所在文件名。
+    file: String,
+    // 准备归并成的 HOST-SUFFIX 值。
+    suffix_value: String,
+    // 对应策略名；两段式规则时为空字符串，仅用于输出。
+    policy: String,
+    // 会被这条 HOST-SUFFIX 取代的精确 HOST。
+    exact_hosts: Vec<String>,
+}
+
 fn main() -> Result<(), Box<dyn std::error::Error>> {
     // 跳过程序名本身，只保留用户传入的参数。
     let args: Vec<String> = env::args().skip(1).collect();
@@ -190,6 +209,14 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
             print_wildcard_coverage_candidates(&candidates);
             println!("total_wildcard_coverage_candidates={}", candidates.len());
         }
+        "check-host-suffix-merges" => {
+            // 报告“多条精确 HOST 可归并成一条 HOST-SUFFIX”的候选项。
+            let mut docs = load_documents(FILTER_DIR)?;
+            normalize_documents(&mut docs);
+            let candidates = collect_host_suffix_merge_candidates(&docs);
+            print_host_suffix_merge_candidates(&candidates);
+            println!("total_host_suffix_merge_candidates={}", candidates.len());
+        }
         "resolve-redundant-exacts" => {
             // 删除这类冗余精确规则。
             let mut docs = load_documents(FILTER_DIR)?;
@@ -201,6 +228,18 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
                 write_documents(&docs)?;
             }
             println!("removed_redundant_exacts={}", removed);
+        }
+        "merge-hosts-to-suffixes" => {
+            // 把同文件、同策略下共享父域的多条精确 HOST 归并成 HOST-SUFFIX。
+            let mut docs = load_documents(FILTER_DIR)?;
+            normalize_documents(&mut docs);
+            let merged = merge_hosts_to_suffixes(&mut docs);
+            // 归并后再规范化一次，统一排序、去重和头部统计。
+            normalize_documents(&mut docs);
+            if write {
+                write_documents(&docs)?;
+            }
+            println!("merged_host_suffix_groups={}", merged);
         }
         "resolve-exact-conflicts" => {
             // 清理“同类型 + 同目标值 + 不同策略”的精确冲突。
@@ -250,7 +289,9 @@ fn print_usage() {
     eprintln!("  /tmp/filter_maintainer check-conflicts");
     eprintln!("  /tmp/filter_maintainer check-redundant-exacts");
     eprintln!("  /tmp/filter_maintainer check-wildcard-coverage");
+    eprintln!("  /tmp/filter_maintainer check-host-suffix-merges");
     eprintln!("  /tmp/filter_maintainer resolve-redundant-exacts [--write]");
+    eprintln!("  /tmp/filter_maintainer merge-hosts-to-suffixes [--write]");
     eprintln!("  /tmp/filter_maintainer resolve-exact-conflicts [--write]");
     eprintln!("  /tmp/filter_maintainer all [--write]");
 }
@@ -419,6 +460,7 @@ fn normalize_document(doc: &mut Document) {
     doc.rules.retain(|rule| seen.insert(rule_identity(rule)));
 
     update_header_counts(doc);
+    update_header_updated(doc);
     normalize_header_format(doc);
 }
 
@@ -490,6 +532,29 @@ fn update_header_counts(doc: &mut Document) {
     doc.header
         .key_values
         .insert("TOTAL".to_string(), total.to_string());
+}
+
+fn update_header_updated(doc: &mut Document) {
+    // UPDATED 统一写当前工作会话所在本地日期，便于维护者判断最后整理时间。
+    let current_date = current_local_date();
+    doc.header
+        .key_values
+        .insert("UPDATED".to_string(), current_date);
+}
+
+fn current_local_date() -> String {
+    // 通过系统 date 命令获取本地日期，保持脚本仍可单文件 rustc 编译执行。
+    let output = Command::new("date").arg("+%F").output();
+    if let Ok(output) = output {
+        if output.status.success() {
+            let text = String::from_utf8_lossy(&output.stdout).trim().to_string();
+            if !text.is_empty() {
+                return text;
+            }
+        }
+    }
+    // 如果外部命令异常，至少保留一个空值占位，避免 panic。
+    String::new()
 }
 
 fn normalize_header_format(doc: &mut Document) {
@@ -835,6 +900,168 @@ fn print_wildcard_coverage_candidates(candidates: &[WildcardCoverageCandidate]) 
             candidate.file, candidate.suffix_value, candidate.policy, candidate.wildcard_value
         );
     }
+}
+
+fn collect_host_suffix_merge_candidates(docs: &[Document]) -> Vec<HostSuffixMergeCandidate> {
+    // 这里的“父域”定义为：去掉最左侧一个 label 后的剩余部分。
+    // 例如 adm0.autoimg.cn / adm1.autoimg.cn 会聚合到 autoimg.cn。
+    let mut candidates = Vec::new();
+
+    for doc in docs {
+        let file = doc
+            .path
+            .file_name()
+            .and_then(|s| s.to_str())
+            .unwrap_or_default()
+            .to_string();
+
+        // key: (policy, suffix)
+        let mut grouped: BTreeMap<(Option<String>, String), Vec<String>> = BTreeMap::new();
+        let mut existing_suffixes = HashSet::new();
+
+        for rule in &doc.rules {
+            if rule.kind == "HOST-SUFFIX" {
+                existing_suffixes.insert((
+                    rule.policy.clone(),
+                    rule.value.to_ascii_lowercase(),
+                ));
+            }
+
+            if rule.kind != "HOST" {
+                continue;
+            }
+
+            let Some(parent_suffix) = direct_parent_suffix(&rule.value) else {
+                continue;
+            };
+
+            grouped
+                .entry((rule.policy.clone(), parent_suffix.to_ascii_lowercase()))
+                .or_default()
+                .push(rule.value.clone());
+        }
+
+        for ((policy, suffix_value), mut exact_hosts) in grouped {
+            exact_hosts.sort_by_key(|host| host.to_ascii_lowercase());
+            exact_hosts.dedup_by(|left, right| left.eq_ignore_ascii_case(right));
+
+            // 至少两条精确 HOST 才值得主动放宽成一条 HOST-SUFFIX。
+            if exact_hosts.len() < 2 {
+                continue;
+            }
+
+            // 已有同策略同值的 HOST-SUFFIX 时，交给冗余精确规则清理逻辑处理即可。
+            if existing_suffixes.contains(&(policy.clone(), suffix_value.clone())) {
+                continue;
+            }
+
+            candidates.push(HostSuffixMergeCandidate {
+                file: file.clone(),
+                suffix_value,
+                policy: policy.unwrap_or_default(),
+                exact_hosts,
+            });
+        }
+    }
+
+    candidates
+}
+
+fn direct_parent_suffix(host: &str) -> Option<String> {
+    // 只处理至少包含一个点的 HOST；没有父域的值不参与归并。
+    let (_, suffix) = host.split_once('.')?;
+    if suffix.is_empty() {
+        return None;
+    }
+    if !is_mergeable_host_suffix(suffix) {
+        return None;
+    }
+    Some(suffix.to_string())
+}
+
+fn is_mergeable_host_suffix(suffix: &str) -> bool {
+    let labels: Vec<&str> = suffix.split('.').filter(|label| !label.is_empty()).collect();
+    if labels.len() < 2 {
+        // 例如 com / io / top 这类顶级后缀不允许自动归并。
+        return false;
+    }
+
+    if labels.len() == 2 {
+        // 例如 com.tw / co.uk / net.cn 这类常见公共二级后缀也不自动归并。
+        let first = labels[0].to_ascii_lowercase();
+        let second = labels[1];
+        if second.len() == 2 && COMMON_PUBLIC_SUFFIX_PREFIXES.contains(&first.as_str()) {
+            return false;
+        }
+    }
+
+    true
+}
+
+fn print_host_suffix_merge_candidates(candidates: &[HostSuffixMergeCandidate]) {
+    for candidate in candidates {
+        println!(
+            "{}: HOST-SUFFIX|{}|{} <- {}",
+            candidate.file,
+            candidate.suffix_value,
+            candidate.policy,
+            candidate.exact_hosts.join(",")
+        );
+    }
+}
+
+fn merge_hosts_to_suffixes(docs: &mut [Document]) -> usize {
+    let candidates = collect_host_suffix_merge_candidates(docs);
+    let mut merged_groups = 0usize;
+
+    for doc in docs {
+        let file = doc
+            .path
+            .file_name()
+            .and_then(|s| s.to_str())
+            .unwrap_or_default()
+            .to_string();
+
+        let file_candidates: Vec<&HostSuffixMergeCandidate> =
+            candidates.iter().filter(|candidate| candidate.file == file).collect();
+        if file_candidates.is_empty() {
+            continue;
+        }
+
+        let mut removal_keys = HashSet::new();
+        let mut additions = Vec::new();
+
+        for candidate in file_candidates {
+            for host in &candidate.exact_hosts {
+                removal_keys.insert(format!("HOST|{}|{}", host, candidate.policy));
+            }
+
+            additions.push(Rule {
+                kind: "HOST-SUFFIX".to_string(),
+                value: candidate.suffix_value.clone(),
+                policy: if candidate.policy.is_empty() {
+                    None
+                } else {
+                    Some(candidate.policy.clone())
+                },
+                extras: Vec::new(),
+            });
+            merged_groups += 1;
+        }
+
+        doc.rules.retain(|rule| {
+            let key = format!(
+                "{}|{}|{}",
+                rule.kind,
+                rule.value,
+                rule.policy.clone().unwrap_or_default()
+            );
+            !removal_keys.contains(&key)
+        });
+        doc.rules.extend(additions);
+    }
+
+    merged_groups
 }
 
 fn resolve_exact_conflicts(docs: &mut [Document]) -> usize {

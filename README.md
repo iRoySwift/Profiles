@@ -197,6 +197,30 @@ rustc --crate-name filter_maintainer scripts/filter_maintainer.rs -O -o /tmp/fil
 - 这是保守检查，不会自动删除规则。
 - 之所以只做候选提示，是因为 `HOST-SUFFIX` 与 `HOST-WILDCARD` 对子域的真实匹配语义未必完全等价，直接自动改写有风险。
 
+### 检查可归并成 HOST-SUFFIX 的精确 HOST
+
+```bash
+/tmp/filter_maintainer check-host-suffix-merges
+```
+
+说明：
+
+- 用于检查同文件、同策略下，多条精确 `HOST` 是否可归并成一条更宽的 `HOST-SUFFIX`。
+- 只有共享同一个直接父域、且至少存在 2 条精确 `HOST` 时才会报告。
+- 默认只检查，不修改文件。
+
+### 把多条精确 HOST 归并成 HOST-SUFFIX
+
+```bash
+/tmp/filter_maintainer merge-hosts-to-suffixes --write
+```
+
+说明：
+
+- 会把同文件、同策略下共享直接父域的多条精确 `HOST` 归并成一条 `HOST-SUFFIX`。
+- 这类归并会主动放宽匹配范围，适用于明确接受“兜住更多子域”的维护场景。
+- 写回后会同步排序、去重、头部统计，并把 `UPDATED` 更新为当前本地日期。
+
 ### 一次执行全部维护
 
 ```bash
@@ -216,7 +240,9 @@ rustc --crate-name filter_maintainer scripts/filter_maintainer.rs -O -o /tmp/fil
 ```bash
 /tmp/filter_maintainer normalize
 /tmp/filter_maintainer check-redundant-exacts
+/tmp/filter_maintainer check-host-suffix-merges
 /tmp/filter_maintainer resolve-redundant-exacts
+/tmp/filter_maintainer merge-hosts-to-suffixes
 /tmp/filter_maintainer resolve-exact-conflicts
 /tmp/filter_maintainer all
 ```

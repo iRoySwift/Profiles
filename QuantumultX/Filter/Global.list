@@ -1,20 +1,19 @@
 # NAME: Global
 # AUTHOR: Roy
 # REPO: https://github.com/iRoySwift
-# UPDATED: 2026-04-06
-# HOST: 162
+# UPDATED: 2026-04-09
+# HOST: 125
 # HOST-KEYWORD: 12
-# HOST-SUFFIX: 23024
+# HOST-SUFFIX: 23040
 # HOST-WILDCARD: 0
 # IP-CIDR: 97
 # IP6-CIDR: 4
 # IP-CIDR6: 0
 # USER-AGENT: 7
-# TOTAL: 23306
+# TOTAL: 23285
 
 HOST,58sd.net,Global
 HOST,a6913b7b80402974409b47079c29d775.baas.nintendo.com,Global
-HOST,accounts.x.ai,Global
 HOST,analysis-acc-ssl.xunlei.com,Global
 HOST,angle.com.tw,Global
 HOST,anime-rule34-world.b-cdn.net,Global
@@ -29,32 +28,19 @@ HOST,app.adjust.com,Global
 HOST,app.getgrass.io,Global
 HOST,aqi.aqicn.org,Global
 HOST,arb1.arbitrum.io,Global
-HOST,asahishimbun.sc.omtrdc.net,Global
-HOST,assets.grok.com,Global
-HOST,assets.x.ai,Global
-HOST,assets1.xboxlive.com,Global
-HOST,assets2.xboxlive.com,Global
-HOST,auth.grok.com,Global
-HOST,b-hls-05.sacdnssedge.com,Global
-HOST,b-hls-07.sacdnssedge.com,Global
 HOST,babel-api.mainnet.iotex.io,Global
-HOST,backpack-api.xnfts.dev,Global
-HOST,beatselectronicsllc.tt.omtrdc.net,Global
 HOST,beck-online.beck.de,Global
 HOST,beemaps.com,Global
 HOST,blizzard.nefficient.co.kr,Global
 HOST,blog.iroyswift.com,Global
 HOST,cacerts.digicert.cn,Global
 HOST,cbsi.live.ott.irdeto.com,Global
-HOST,cbsplaylistserver.aws.syncbak.com,Global
-HOST,cbsservice.aws.syncbak.com,Global
 HOST,cdn.js7k.com,Global
 HOST,cdn.logly.co.jp,Global
 HOST,cdp.activation.sph.com.sg,Global
 HOST,chat.openai.com.cdn.cloudflare.net,Global
 HOST,china.embassy.gov.au,Global
 HOST,cisco.evergage.com,Global
-HOST,clients1.google.com,Global
 HOST,cloud.oracle.com,Global
 HOST,clubhouse.pubnubapi.com,Global
 HOST,console.onocoy.com,Global
@@ -69,24 +55,19 @@ HOST,depinscan.io,Global
 HOST,deribit.cdn.prismic.io,Global
 HOST,deutschewelle.h-cdn.com,Global
 HOST,dl.begellhouse.com,Global
-HOST,ea.tt.omtrdc.net,Global
 HOST,echarts.apache.org,Global
 HOST,edge-177.sgsin8.icloud-content.com,Global
 HOST,elib.maruzen.co.jp,Global
 HOST,espn.api.edge.bamgrid.com,Global
 HOST,espn.hb.omtrdc.net,Global
-HOST,espndotcom.tt.omtrdc.net,Global
 HOST,eu-assets.i.posthog.com,Global
 HOST,events.framer.com,Global
-HOST,evt.iloveimg.com,Global
 HOST,faronics.kayako.com,Global
 HOST,fengqun.io,Global
 HOST,fengqun.top,Global
 HOST,firstsearch.oclc.org,Global
 HOST,fq-top-v-fast.com,Global
 HOST,gamefaqs.gamespot.com,Global
-HOST,gcloud.pokemon-unitepgame.com,Global
-HOST,geo.workers.madlads.com,Global
 HOST,gog.qtlglb.com,Global
 HOST,grass.ghost.io,Global
 HOST,grok.com,Global
@@ -94,61 +75,45 @@ HOST,hkfastcn-hdcpneijtw.cn-hongkong.fcapp.run,Global
 HOST,hpstore.corpmerchandise.com,Global
 HOST,hulu.playback.edge.bamgrid.com,Global
 HOST,i.jeded.com,Global
-HOST,image.pokemon-unitepgame.com,Global
 HOST,imap.zasq.net,Global
 HOST,immi.homeaffairs.gov.au,Global
 HOST,imperial.insendi.com,Global
 HOST,js.hs-scripts.com,Global
 HOST,lgelectronics.122.2o7.net,Global
 HOST,link.theplatform.com,Global
-HOST,linkedin.sc.omtrdc.net,Global
 HOST,live-patreon-marketing.pantheonsite.io,Global
 HOST,lu.ma,Global
 HOST,m.yinghuajinju.com,Global
 HOST,mango.markets,Global
 HOST,mdn.mozillademos.org,Global
 HOST,medone-education.thieme.com,Global
-HOST,ms.singaporepaya.com,Global
-HOST,mtalk.google.com,Global
 HOST,muse.jhu.edu,Global
-HOST,nationalaustraliaban.tt.omtrdc.net,Global
 HOST,ncdn1.sntp.uk,Global
-HOST,nvidia.tt.omtrdc.net,Global
 HOST,ohttp-relay1.fastly-edge.com,Global
 HOST,ood.opsource.net,Global
-HOST,p58-content.icloud.com,Global
-HOST,p66-content.icloud.com,Global
 HOST,pay.yuepaoyyds.cyou,Global
 HOST,pchomeonline.com.tw,Global
 HOST,pinata.cloud,Global
-HOST,pki.google.com,Global
 HOST,pool.v6.bt.n0808.com,Global
 HOST,practivate.adobe,Global
 HOST,practivate.adobe.ipp,Global
 HOST,practivate.adobe.newoa,Global
 HOST,practivate.adobe.ntp,Global
-HOST,price-indexer.workers.madlads.com,Global
 HOST,public-us-pingsx.api.clonoth.com,Global
 HOST,qx.atlucky.me,Global
 HOST,react.dev,Global
 HOST,render.ibex.trade,Global
-HOST,reportms.singaporepaya.com,Global
 HOST,segment-coverage.hivemapper.com,Global
 HOST,srz.salesmartly.com,Global
 HOST,sso.4px.com,Global
-HOST,staking.xnfts.dev,Global
 HOST,static.mysph.sph.com.sg,Global
 HOST,subcdn.cos.cat,Global
 HOST,subcdn.cos.catview.com,Global
-HOST,t21.nikkei.co.jp,Global
-HOST,t21ipau.nikkei.co.jp,Global
 HOST,teamviewer.com.cdn.cloudflare.net,Global
 HOST,tesla-cdn.thron.com,Global
 HOST,token-api.streamflow.finance,Global
-HOST,upload.techflowpost.com,Global
 HOST,use1.fptls.com,Global
 HOST,v03.fl-aff.com,Global
-HOST,vmware.tt.omtrdc.net,Global
 HOST,vscode.search.windows.net,Global
 HOST,vsmarketplacebadge.apphb.com,Global
 HOST,wallet-banner.xnftdata.com,Global
@@ -156,7 +121,6 @@ HOST,wetv.qq.com,Global
 HOST,widgets.stripst.com,Global
 HOST,wrds-www.wharton.upenn.edu,Global
 HOST,www.betdex.com,Global
-HOST,www.iloveimg.com,Global
 HOST,www.movieffm.net,Global
 HOST,www.ntdm9.com,Global
 HOST,www.nutbit.net,Global
@@ -165,7 +129,6 @@ HOST,www.shudan.vip,Global
 HOST,www.smashwords.com,Global
 HOST,www.tacoso.cc,Global
 HOST,www.taiwansig.tw,Global
-HOST,www.techflowpost.com,Global
 HOST,www.tomatov2.buzz,Global
 HOST,www.vaultka.com,Global
 HOST,www.zhuoshuge.com,Global
@@ -2307,6 +2270,7 @@ HOST-SUFFIX,awetv.com,Global
 HOST-SUFFIX,awflapp.top,Global
 HOST-SUFFIX,awjq.cc,Global
 HOST-SUFFIX,aws-iot-hackathon.com,Global
+HOST-SUFFIX,aws.syncbak.com,Global
 HOST-SUFFIX,awsautopilot.com,Global
 HOST-SUFFIX,awsautoscaling.com,Global
 HOST-SUFFIX,awsbraket.com,Global
@@ -8978,6 +8942,7 @@ HOST-SUFFIX,goofind.com,Global
 HOST-SUFFIX,googel.com,Global
 HOST-SUFFIX,googil.com,Global
 HOST-SUFFIX,googl.com,Global
+HOST-SUFFIX,google.com,Global
 HOST-SUFFIX,googlr.com,Global
 HOST-SUFFIX,googo.us,Global
 HOST-SUFFIX,goolge.com,Global
@@ -9080,6 +9045,7 @@ HOST-SUFFIX,greenvpn.org,Global
 HOST-SUFFIX,greginhollywood.com,Global
 HOST-SUFFIX,gridaware.app,Global
 HOST-SUFFIX,grindr.com,Global
+HOST-SUFFIX,grok.com,Global
 HOST-SUFFIX,grooby.com,Global
 HOST-SUFFIX,grotty-monday.com,Global
 HOST-SUFFIX,groupfun.com,Global
@@ -10222,6 +10188,7 @@ HOST-SUFFIX,ichigocandy.com,Global
 HOST-SUFFIX,ichineseporn.com,Global
 HOST-SUFFIX,icij.org,Global
 HOST-SUFFIX,icl-fi.org,Global
+HOST-SUFFIX,icloud.com,Global
 HOST-SUFFIX,icntv.xyz,Global
 HOST-SUFFIX,icoco.com,Global
 HOST-SUFFIX,iconfactory.net,Global
@@ -10466,6 +10433,7 @@ HOST-SUFFIX,illusnoi.com,Global
 HOST-SUFFIX,ilongman.com,Global
 HOST-SUFFIX,ilove-movies.com,Global
 HOST-SUFFIX,ilove80.be,Global
+HOST-SUFFIX,iloveimg.com,Global
 HOST-SUFFIX,iloveinterracial.com,Global
 HOST-SUFFIX,ilovelongtoes.com,Global
 HOST-SUFFIX,iloveprettylolimm.com,Global
@@ -14584,6 +14552,7 @@ HOST-SUFFIX,nikke-jp.com,Global
 HOST-SUFFIX,nikke-kr.com,Global
 HOST-SUFFIX,nikke-sea.com,Global
 HOST-SUFFIX,nikkei-cnbc.co.jp,Global
+HOST-SUFFIX,nikkei.co.jp,Global
 HOST-SUFFIX,nikkei4946.com,Global
 HOST-SUFFIX,nikkeibp.co.jp,Global
 HOST-SUFFIX,nikonpc.com,Global
@@ -16019,6 +15988,7 @@ HOST-SUFFIX,pokedex3d.com,Global
 HOST-SUFFIX,pokemon-moon.com,Global
 HOST-SUFFIX,pokemon-sun.com,Global
 HOST-SUFFIX,pokemon-sunmoon.com,Global
+HOST-SUFFIX,pokemon-unitepgame.com,Global
 HOST-SUFFIX,pokemon.com,Global
 HOST-SUFFIX,pokemonbank.com,Global
 HOST-SUFFIX,pokemonblackwhite.com,Global
@@ -17357,6 +17327,7 @@ HOST-SUFFIX,saasexch.com,Global
 HOST-SUFFIX,saasexch.io,Global
 HOST-SUFFIX,saboom.com,Global
 HOST-SUFFIX,sabuibo.net,Global
+HOST-SUFFIX,sacdnssedge.com,Global
 HOST-SUFFIX,sacduc.com,Global
 HOST-SUFFIX,sacks.com,Global
 HOST-SUFFIX,sacom.hk,Global
@@ -17485,6 +17456,7 @@ HOST-SUFFIX,sbs.com.au,Global
 HOST-SUFFIX,sbux.com.my,Global
 HOST-SUFFIX,sbuxcard.com,Global
 HOST-SUFFIX,sc-cdn.net,Global
+HOST-SUFFIX,sc.omtrdc.net,Global
 HOST-SUFFIX,sca-tolo.info,Global
 HOST-SUFFIX,scala-lang.org,Global
 HOST-SUFFIX,scala-sbt.org,Global
@@ -18098,6 +18070,7 @@ HOST-SUFFIX,sinchew.com.my,Global
 HOST-SUFFIX,sinchew.my,Global
 HOST-SUFFIX,sing4.lat,Global
 HOST-SUFFIX,sing68.com,Global
+HOST-SUFFIX,singaporepaya.com,Global
 HOST-SUFFIX,singaporepools.com.sg,Global
 HOST-SUFFIX,singfortibet.com,Global
 HOST-SUFFIX,single.speedtest.net,Global
@@ -19212,6 +19185,7 @@ HOST-SUFFIX,tearapeak.com,Global
 HOST-SUFFIX,teatroporno.com,Global
 HOST-SUFFIX,techatbloomberg.com,Global
 HOST-SUFFIX,techcrunch.com,Global
+HOST-SUFFIX,techflowpost.com,Global
 HOST-SUFFIX,techflowpost.mirror.xyz,Global
 HOST-SUFFIX,techhub.ms,Global
 HOST-SUFFIX,techliquidators.com,Global
@@ -20001,6 +19975,7 @@ HOST-SUFFIX,tsundora.com,Global
 HOST-SUFFIX,tsuradou.noonvob.com,Global
 HOST-SUFFIX,tsyum.com,Global
 HOST-SUFFIX,tt-rss.org,Global
+HOST-SUFFIX,tt.omtrdc.net,Global
 HOST-SUFFIX,tt1069.com,Global
 HOST-SUFFIX,tteshop.com,Global
 HOST-SUFFIX,ttsp.tv,Global
@@ -21844,6 +21819,7 @@ HOST-SUFFIX,workatruna.com,Global
 HOST-SUFFIX,workerdemo.org.hk,Global
 HOST-SUFFIX,workerempowerment.org,Global
 HOST-SUFFIX,workers.dev,Global
+HOST-SUFFIX,workers.madlads.com,Global
 HOST-SUFFIX,workersthebig.net,Global
 HOST-SUFFIX,workflow.is,Global
 HOST-SUFFIX,workflowy.com,Global
@@ -22001,6 +21977,7 @@ HOST-SUFFIX,x-berry.com,Global
 HOST-SUFFIX,x-caprice.com,Global
 HOST-SUFFIX,x-fetish.org,Global
 HOST-SUFFIX,x-wall.org,Global
+HOST-SUFFIX,x.ai,Global
 HOST-SUFFIX,x.co,Global
 HOST-SUFFIX,x.com,Global
 HOST-SUFFIX,x.company,Global
@@ -22052,6 +22029,7 @@ HOST-SUFFIX,xbox360.org,Global
 HOST-SUFFIX,xboxab.com,Global
 HOST-SUFFIX,xboxgamepass.com,Global
 HOST-SUFFIX,xboxgamestudios.com,Global
+HOST-SUFFIX,xboxlive.com,Global
 HOST-SUFFIX,xboxone.co,Global
 HOST-SUFFIX,xboxone.com,Global
 HOST-SUFFIX,xboxone.eu,Global
@@ -22260,6 +22238,7 @@ HOST-SUFFIX,xn--yf1at58a.com,Global
 HOST-SUFFIX,xn--yt8h.la,Global
 HOST-SUFFIX,xnalgas.com,Global
 HOST-SUFFIX,xnertv.shop,Global
+HOST-SUFFIX,xnfts.dev,Global
 HOST-SUFFIX,xnostars.com,Global
 HOST-SUFFIX,xnxvideos.org,Global
 HOST-SUFFIX,xnxx-cdn.com,Global

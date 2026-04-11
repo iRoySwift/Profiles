@@ -1,27 +1,25 @@
 # NAME: Apple
 # AUTHOR: Roy
 # REPO: https://github.com/iRoySwift
-# UPDATED: 2026-04-06
-# HOST: 7
+# UPDATED: 2026-04-09
+# HOST: 4
 # HOST-KEYWORD: 0
-# HOST-SUFFIX: 7
+# HOST-SUFFIX: 8
 # HOST-WILDCARD: 0
 # IP-CIDR: 0
 # IP6-CIDR: 0
 # IP-CIDR6: 0
 # USER-AGENT: 2
-# TOTAL: 16
+# TOTAL: 14
 
 HOST,api.apple-cloudkit.com,Apple
-HOST,app-site-association.cdn-apple.com,Apple
 HOST,chrt.fm,Apple
 HOST,gitbook.swiftgg.team,Apple
 HOST,is1-ssl.mzstatic.com,Apple
-HOST,sequoia.cdn-apple.com,Apple
-HOST,updates.cdn-apple.com,Apple
 HOST-SUFFIX,apple.com,Apple
 HOST-SUFFIX,apple.news,Apple
 HOST-SUFFIX,applemusic.com,Apple
+HOST-SUFFIX,cdn-apple.com,Apple
 HOST-SUFFIX,fastly-edge.com,Apple
 HOST-SUFFIX,icloud-content.com,Apple
 HOST-SUFFIX,icloud.com,Apple

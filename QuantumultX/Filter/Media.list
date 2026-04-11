@@ -1,75 +1,57 @@
 # NAME: GlobalMedia
 # AUTHOR: Roy
 # REPO: https://github.com/iRoySwift
-# UPDATED: 2026-04-06
-# HOST: 224
+# UPDATED: 2026-04-09
+# HOST: 171
 # HOST-KEYWORD: 20
-# HOST-SUFFIX: 1016
+# HOST-SUFFIX: 1039
 # HOST-WILDCARD: 0
 # IP-CIDR: 860
 # IP6-CIDR: 1
 # IP-CIDR6: 0
 # USER-AGENT: 57
-# TOTAL: 2178
+# TOTAL: 2148
 
 HOST,1anime.me,GlobalMedia
 HOST,a.delivery.consentmanager.net,GlobalMedia
-HOST,a.magsrv.com,GlobalMedia
-HOST,a.pemsrv.com,GlobalMedia
 HOST,abre-videos.cdn1122.com,GlobalMedia
 HOST,age456.cc,GlobalMedia
-HOST,akmcdnoversea-tw.inter.ptqy.gitv.tv,GlobalMedia
 HOST,annas-archive.org,GlobalMedia
 HOST,api.ffbbbdc6d3c353211fe2ba39c9f744cd.com,GlobalMedia
 HOST,api.gourl.dev,GlobalMedia
 HOST,api.okzy.tv,GlobalMedia
-HOST,api.pokeos.com,GlobalMedia
 HOST,api.svc.taiwanmedia.org,GlobalMedia
 HOST,apm-misaka.biliapi.net,GlobalMedia
 HOST,app-analytics-services.com,GlobalMedia
 HOST,app.galxe.com,GlobalMedia
 HOST,apps.mzstatic.com,GlobalMedia
 HOST,assd.hkewhqoao.cn,GlobalMedia
-HOST,assets.pokeos.com,GlobalMedia
-HOST,assets.strpst.com,GlobalMedia
-HOST,b-hls-25.doppiocdn.net,GlobalMedia
 HOST,b.galxestatic.com,GlobalMedia
 HOST,b1.nel.goog,GlobalMedia
 HOST,beacon.090881.xyz,GlobalMedia
 HOST,c.baisiweiting.com,GlobalMedia
-HOST,c.cnzz.com,GlobalMedia
 HOST,c1.rrcdnbf2.com,GlobalMedia
 HOST,cdi.ofiii.com,GlobalMedia
 HOST,cdn.aiqingyu1314.com,GlobalMedia
 HOST,cdn.branch.io,GlobalMedia
-HOST,cdn.consentmanager.net,GlobalMedia
 HOST,cdn.impactserving.com,GlobalMedia
 HOST,cdn.oaistatic.com,GlobalMedia
 HOST,cdn.plyr.io,GlobalMedia
 HOST,cdn.staticstack.net,GlobalMedia
 HOST,cdn.storageimagedisplay.com,GlobalMedia
-HOST,cdn.tsyndicate.com,GlobalMedia
 HOST,cdn.wlcdn88.com,GlobalMedia
 HOST,cdp.sph.com.sg,GlobalMedia
 HOST,chaseherbalpasty.com,GlobalMedia
-HOST,chuangcachecdnoversea-tw.inter.ptqy.gitv.tv,GlobalMedia
 HOST,client-rapi-missav.recombee.com,GlobalMedia
 HOST,creative-sb1.com,GlobalMedia
-HOST,creative.chiccams.com,GlobalMedia
 HOST,creative.kbnmnl.com,GlobalMedia
-HOST,creative.reebr.com,GlobalMedia
 HOST,cs428.wpc.edgecastcdn.net,GlobalMedia
 HOST,dalb.valuecommerce.com,GlobalMedia
 HOST,dash.afun.la,GlobalMedia
-HOST,datasphere-sbsvc.sharethis.com,GlobalMedia
 HOST,daznfeeds.com.edgekey.net,GlobalMedia
 HOST,dca-lm-livedazn.secure.footprint.net,GlobalMedia
-HOST,delivery.consentmanager.net,GlobalMedia
 HOST,ecjcc.liugw2.cn,GlobalMedia
 HOST,edge-013.sgsin8.icloud-content.com,GlobalMedia
-HOST,edge-hls.doppiocdn.com,GlobalMedia
-HOST,edge-hls.doppiocdn.net,GlobalMedia
-HOST,edge-hls.growcdnssedge.com,GlobalMedia
 HOST,edge.cwtv-vod-ext.top.comcast.net,GlobalMedia
 HOST,events.backtrace.io,GlobalMedia
 HOST,fonts.bunny.net,GlobalMedia
@@ -78,9 +60,7 @@ HOST,freestrip.chat,GlobalMedia
 HOST,fridayvideo.api.useinsider.com,GlobalMedia
 HOST,gimy.ai,GlobalMedia
 HOST,global-cdn.me,GlobalMedia
-HOST,go.chiccams.com,GlobalMedia
 HOST,go.mnaspm.com,GlobalMedia
-HOST,go.reebr.com,GlobalMedia
 HOST,go.rmzsglng.com,GlobalMedia
 HOST,h-adashx.dingtalkapps.com,GlobalMedia
 HOST,h-dazn.online-metrix.net,GlobalMedia
@@ -92,11 +72,7 @@ HOST,hulu.map.fastly.net,GlobalMedia
 HOST,hw-cdn2.adtng.com,GlobalMedia
 HOST,i.moshimo.com,GlobalMedia
 HOST,i0.hdslb.com,GlobalMedia
-HOST,i1.cdn-image.com,GlobalMedia
-HOST,i2.cdn-image.com,GlobalMedia
-HOST,i3.cdn-image.com,GlobalMedia
 HOST,images-daznservices-com.cdn.ampproject.org,GlobalMedia
-HOST,img.doppiocdn.com,GlobalMedia
 HOST,img.ffzy888.com,GlobalMedia
 HOST,its.pasrv.com,GlobalMedia
 HOST,j.clarity.ms,GlobalMedia
@@ -104,8 +80,6 @@ HOST,jable.tv,GlobalMedia
 HOST,jm.b25216.com,GlobalMedia
 HOST,js.lasso.link,GlobalMedia
 HOST,k8dm.com,GlobalMedia
-HOST,l.sharethis.com,GlobalMedia
-HOST,lf-growth-vod.larksuitecdn.com,GlobalMedia
 HOST,lf16-capcut.faceueditorv.com,GlobalMedia
 HOST,lf16-capcut.faceulv.com,GlobalMedia
 HOST,lf16-fdm.fdmimgs.com,GlobalMedia
@@ -114,8 +88,6 @@ HOST,lf16-picoverse-i18n.picovr.com,GlobalMedia
 HOST,linux.do,GlobalMedia
 HOST,logos.skyscnr.com,GlobalMedia
 HOST,m.agedm.vip,GlobalMedia
-HOST,media-hls.doppiocdn.net,GlobalMedia
-HOST,media-hls.growcdnssedge.com,GlobalMedia
 HOST,mirror.ossplanet.net,GlobalMedia
 HOST,mirrors.sau.edu.cn,GlobalMedia
 HOST,missav.ws,GlobalMedia
@@ -125,36 +97,22 @@ HOST,mssdk.volces.com,GlobalMedia
 HOST,nano.nachoneko.cn,GlobalMedia
 HOST,niercloud.com,GlobalMedia
 HOST,nnyy.in,GlobalMedia
-HOST,origin-webrtc.doppiocdn.com,GlobalMedia
 HOST,oxx123.com,GlobalMedia
 HOST,p0.ssl.qhimg.com,GlobalMedia
 HOST,pokemon-tcg-pocket.wiki,GlobalMedia
 HOST,preferencenail.com,GlobalMedia
 HOST,ptcgp-wiki.metainnovation.site,GlobalMedia
-HOST,pxl-eu.tsyndicate.com,GlobalMedia
 HOST,r.trackwilltrk.com,GlobalMedia
 HOST,ranking.goo,GlobalMedia
 HOST,rpg.pic-imges.com,GlobalMedia
 HOST,runtufenxiang.com,GlobalMedia
 HOST,s-gm.mmstat.com,GlobalMedia
-HOST,s.magsrv.com,GlobalMedia
-HOST,s.pemsrv.com,GlobalMedia
 HOST,s1-a1.global-cdn.me,GlobalMedia
-HOST,s1-e1.arebyte.xyz,GlobalMedia
-HOST,s1-e1.bitwayeat.com,GlobalMedia
-HOST,s1-e1.sbacii.com,GlobalMedia
 HOST,s1-e1.timeprecei.com,GlobalMedia
-HOST,s10-e1.arebyte.xyz,GlobalMedia
 HOST,s10-e1.dentisest.com,GlobalMedia
-HOST,s10-e1.sbacii.com,GlobalMedia
-HOST,s10-e1.tfbgddd.com,GlobalMedia
-HOST,s10-e1.tfboyaac.com,GlobalMedia
 HOST,s10-e1.waytogone.com,GlobalMedia
 HOST,s3.2233778.xyz,GlobalMedia
-HOST,s3.pokeos.com,GlobalMedia
 HOST,s3t3d2y9.afcdn.net,GlobalMedia
-HOST,s4.cnzz.com,GlobalMedia
-HOST,s6-e1.bitwayeat.com,GlobalMedia
 HOST,s6-e1.etcbbf.xyz,GlobalMedia
 HOST,s6-e1.etcbbh.xyz,GlobalMedia
 HOST,s6-e1.generalcdn.com,GlobalMedia
@@ -162,21 +120,15 @@ HOST,s6-e1.newyvpa.com,GlobalMedia
 HOST,s6-e1.tfbgaaa.com,GlobalMedia
 HOST,s6-e1.tfbgbbb.com,GlobalMedia
 HOST,s6-e1.tfbgccc.com,GlobalMedia
-HOST,s6-e1.tfbgddd.com,GlobalMedia
 HOST,s6-e1.tfbgeee.com,GlobalMedia
 HOST,s6-e1.tfboyaaa.com,GlobalMedia
 HOST,s6-e1.tfboyaab.com,GlobalMedia
-HOST,s6-e1.tfboyaac.com,GlobalMedia
-HOST,s6-e1.tfboyaad.com,GlobalMedia
-HOST,s7-e1.tfboyaad.com,GlobalMedia
 HOST,s7.addthis.com,GlobalMedia
 HOST,sb.scorecardresearch.com,GlobalMedia
 HOST,server.mch3.com,GlobalMedia
-HOST,sf-ibf-sg.larksuitecdn.com,GlobalMedia
 HOST,shield.lightprotocol.com,GlobalMedia
 HOST,shotgunchancecruel.com,GlobalMedia
 HOST,sta.anicdn.com,GlobalMedia
-HOST,static-cdn.strpst.com,GlobalMedia
 HOST,static.trafficjunky.com,GlobalMedia
 HOST,static.wyav.tv,GlobalMedia
 HOST,static.yfsp.tv,GlobalMedia
@@ -200,9 +152,6 @@ HOST,u996.newsntp.net,GlobalMedia
 HOST,unpkg.zhimg.com,GlobalMedia
 HOST,v.9kb.me,GlobalMedia
 HOST,v8.tlkqc.com,GlobalMedia
-HOST,vdownload-7.hembed.com,GlobalMedia
-HOST,vdownload-8.hembed.com,GlobalMedia
-HOST,vdownload.hembed.com,GlobalMedia
 HOST,video.saawsedge.com,GlobalMedia
 HOST,vip.ffzy-play2.com,GlobalMedia
 HOST,vip.lz-cdn14.com,GlobalMedia
@@ -224,7 +173,6 @@ HOST,www.iread.com.tw,GlobalMedia
 HOST,www.kkday.com,GlobalMedia
 HOST,www.mckinsey.com.cn,GlobalMedia
 HOST,www.miliav.com,GlobalMedia
-HOST,www.pokeos.com,GlobalMedia
 HOST,www.qkan8.comhttps,GlobalMedia
 HOST,www.ttkmh.com,GlobalMedia
 HOST,xhlive.cam,GlobalMedia
@@ -234,7 +182,6 @@ HOST,xlpc-sentry.xunlei.com,GlobalMedia
 HOST,xn--9kqz23b19z.com,GlobalMedia
 HOST,xn--mes358aby2apfg.com,GlobalMedia
 HOST,yumao.puata.info,GlobalMedia
-HOST,z3.cnzz.com,GlobalMedia
 HOST,zlib.missuo.me,GlobalMedia
 HOST-KEYWORD,agefans.la,GlobalMedia
 HOST-KEYWORD,anime1.me,GlobalMedia
@@ -302,6 +249,7 @@ HOST-SUFFIX,amlg.io,GlobalMedia
 HOST-SUFFIX,anidom.com,GlobalMedia
 HOST-SUFFIX,api.tv.colnv.com,GlobalMedia
 HOST-SUFFIX,app-41283.com,GlobalMedia
+HOST-SUFFIX,arebyte.xyz,GlobalMedia
 HOST-SUFFIX,att.tv,GlobalMedia
 HOST-SUFFIX,atttvnow.com,GlobalMedia
 HOST-SUFFIX,attwatchtv.com,GlobalMedia
@@ -333,6 +281,7 @@ HOST-SUFFIX,biggggg.com,GlobalMedia
 HOST-SUFFIX,bilibili.tv,GlobalMedia
 HOST-SUFFIX,biliintl.com,GlobalMedia
 HOST-SUFFIX,bitmovin.com,GlobalMedia
+HOST-SUFFIX,bitwayeat.com,GlobalMedia
 HOST-SUFFIX,bootstrapcdn.com,GlobalMedia
 HOST-SUFFIX,bowenpress.com,GlobalMedia
 HOST-SUFFIX,boxun.com,GlobalMedia
@@ -367,11 +316,13 @@ HOST-SUFFIX,cbsstatic.com,GlobalMedia
 HOST-SUFFIX,cbsstore.com,GlobalMedia
 HOST-SUFFIX,cbssvideo.com,GlobalMedia
 HOST-SUFFIX,cbstelevisioncity.com,GlobalMedia
+HOST-SUFFIX,cdn-image.com,GlobalMedia
 HOST-SUFFIX,cdn.optimizely.com,GlobalMedia
 HOST-SUFFIX,cf-images.ap-southeast-1.prod.boltdns.net,GlobalMedia
 HOST-SUFFIX,challenges.cloudflare.com,GlobalMedia
 HOST-SUFFIX,channel4.com,GlobalMedia
 HOST-SUFFIX,channel5.com,GlobalMedia
+HOST-SUFFIX,chiccams.com,GlobalMedia
 HOST-SUFFIX,chocotv.com.tw,GlobalMedia
 HOST-SUFFIX,cinemax.com,GlobalMedia
 HOST-SUFFIX,cloudfront.net,GlobalMedia
@@ -383,9 +334,11 @@ HOST-SUFFIX,cnn.it,GlobalMedia
 HOST-SUFFIX,cnnarabic.com,GlobalMedia
 HOST-SUFFIX,cnnlabs.com,GlobalMedia
 HOST-SUFFIX,cnnmoney.ch,GlobalMedia
+HOST-SUFFIX,cnzz.com,GlobalMedia
 HOST-SUFFIX,cobeuz.fr,GlobalMedia
 HOST-SUFFIX,cobuz.fr,GlobalMedia
 HOST-SUFFIX,cobuzz.fr,GlobalMedia
+HOST-SUFFIX,consentmanager.net,GlobalMedia
 HOST-SUFFIX,content.jwplatform.com,GlobalMedia
 HOST-SUFFIX,control.kochava.com,GlobalMedia
 HOST-SUFFIX,conviva.com,GlobalMedia
@@ -527,6 +480,8 @@ HOST-SUFFIX,dmxleo.com,GlobalMedia
 HOST-SUFFIX,dnitv.com,GlobalMedia
 HOST-SUFFIX,dogatch.jp,GlobalMedia
 HOST-SUFFIX,dokusho-ojikan.jp,GlobalMedia
+HOST-SUFFIX,doppiocdn.com,GlobalMedia
+HOST-SUFFIX,doppiocdn.net,GlobalMedia
 HOST-SUFFIX,dssott.com,GlobalMedia
 HOST-SUFFIX,dtci.co,GlobalMedia
 HOST-SUFFIX,dtci.technology,GlobalMedia
@@ -751,6 +706,7 @@ HOST-SUFFIX,golos-ameriki.ru,GlobalMedia
 HOST-SUFFIX,golosameriki.com,GlobalMedia
 HOST-SUFFIX,gooddaychicago.com,GlobalMedia
 HOST-SUFFIX,gorin.jp,GlobalMedia
+HOST-SUFFIX,growcdnssedge.com,GlobalMedia
 HOST-SUFFIX,gvt1.com,GlobalMedia
 HOST-SUFFIX,gvt2.com,GlobalMedia
 HOST-SUFFIX,haiwaikan.com,GlobalMedia
@@ -774,6 +730,7 @@ HOST-SUFFIX,hbomax.com,GlobalMedia
 HOST-SUFFIX,hbomaxcdn.com,GlobalMedia
 HOST-SUFFIX,hbonow.com,GlobalMedia
 HOST-SUFFIX,hbounify-prod.evergent.com,GlobalMedia
+HOST-SUFFIX,hembed.com,GlobalMedia
 HOST-SUFFIX,hentaiverse.org,GlobalMedia
 HOST-SUFFIX,himalaya.com,GlobalMedia
 HOST-SUFFIX,hinet.net,GlobalMedia
@@ -842,6 +799,7 @@ HOST-SUFFIX,imkan.tv,GlobalMedia
 HOST-SUFFIX,indazn.com,GlobalMedia
 HOST-SUFFIX,indaznlab.com,GlobalMedia
 HOST-SUFFIX,insidevoa.com,GlobalMedia
+HOST-SUFFIX,inter.ptqy.gitv.tv,GlobalMedia
 HOST-SUFFIX,iole.tv,GlobalMedia
 HOST-SUFFIX,ipstatp.com,GlobalMedia
 HOST-SUFFIX,iq.com,GlobalMedia
@@ -882,6 +840,7 @@ HOST-SUFFIX,kktv.me,GlobalMedia
 HOST-SUFFIX,kmplayer.com,GlobalMedia
 HOST-SUFFIX,kobuz.fr,GlobalMedia
 HOST-SUFFIX,ktvu.com,GlobalMedia
+HOST-SUFFIX,larksuitecdn.com,GlobalMedia
 HOST-SUFFIX,line-cdn.net,GlobalMedia
 HOST-SUFFIX,line-scdn.net,GlobalMedia
 HOST-SUFFIX,linetv.tw,GlobalMedia
@@ -892,6 +851,7 @@ HOST-SUFFIX,llnwd.net,GlobalMedia
 HOST-SUFFIX,logx.optimizely.com,GlobalMedia
 HOST-SUFFIX,londonreal.tv,GlobalMedia
 HOST-SUFFIX,m-content-viki.s.llnwi.net,GlobalMedia
+HOST-SUFFIX,magsrv.com,GlobalMedia
 HOST-SUFFIX,manifest.prod.boltdns.net,GlobalMedia
 HOST-SUFFIX,marvel.com,GlobalMedia
 HOST-SUFFIX,marvel10thanniversary.com,GlobalMedia
@@ -1028,12 +988,14 @@ HOST-SUFFIX,pashtovoa.com,GlobalMedia
 HOST-SUFFIX,payhulu.com,GlobalMedia
 HOST-SUFFIX,pbs.org,GlobalMedia
 HOST-SUFFIX,peacocktv.com,GlobalMedia
+HOST-SUFFIX,pemsrv.com,GlobalMedia
 HOST-SUFFIX,persagg.com,GlobalMedia
 HOST-SUFFIX,phncdn.com,GlobalMedia
 HOST-SUFFIX,phprcdn.com,GlobalMedia
 HOST-SUFFIX,players.brightcove.net,GlobalMedia
 HOST-SUFFIX,playmation.com,GlobalMedia
 HOST-SUFFIX,pluto.tv,GlobalMedia
+HOST-SUFFIX,pokeos.com,GlobalMedia
 HOST-SUFFIX,polygon.com,GlobalMedia
 HOST-SUFFIX,pornhub.com,GlobalMedia
 HOST-SUFFIX,pornhubpremium.com,GlobalMedia
@@ -1087,6 +1049,7 @@ HOST-SUFFIX,realamericanstories.org,GlobalMedia
 HOST-SUFFIX,realamericanstories.tv,GlobalMedia
 HOST-SUFFIX,realmilwaukeenow.com,GlobalMedia
 HOST-SUFFIX,recode.net,GlobalMedia
+HOST-SUFFIX,reebr.com,GlobalMedia
 HOST-SUFFIX,registerhulu.com,GlobalMedia
 HOST-SUFFIX,rprimelab.com,GlobalMedia
 HOST-SUFFIX,rthk.hk,GlobalMedia
@@ -1094,11 +1057,13 @@ HOST-SUFFIX,rthk.org.hk,GlobalMedia
 HOST-SUFFIX,s-nbcnews.com,GlobalMedia
 HOST-SUFFIX,s.yimg.jp,GlobalMedia
 HOST-SUFFIX,sacdnssedge.com,GlobalMedia
+HOST-SUFFIX,sbacii.com,GlobalMedia
 HOST-SUFFIX,sbnation.com,GlobalMedia
 HOST-SUFFIX,scdn.co,GlobalMedia
 HOST-SUFFIX,screens-lab.jp,GlobalMedia
 HOST-SUFFIX,seattlespheres.com,GlobalMedia
 HOST-SUFFIX,sgpstatp.com,GlobalMedia
+HOST-SUFFIX,sharethis.com,GlobalMedia
 HOST-SUFFIX,sho.com,GlobalMedia
 HOST-SUFFIX,shopdisney.com,GlobalMedia
 HOST-SUFFIX,shops-disney.com,GlobalMedia
@@ -1132,10 +1097,14 @@ HOST-SUFFIX,starwarskids.com,GlobalMedia
 HOST-SUFFIX,static-qobuz.com,GlobalMedia
 HOST-SUFFIX,streaks.jp,GlobalMedia
 HOST-SUFFIX,streamingdisney.net,GlobalMedia
+HOST-SUFFIX,strpst.com,GlobalMedia
 HOST-SUFFIX,syfy.com,GlobalMedia
 HOST-SUFFIX,teenchoice.com,GlobalMedia
 HOST-SUFFIX,telemundo.com,GlobalMedia
 HOST-SUFFIX,testonfox.com,GlobalMedia
+HOST-SUFFIX,tfbgddd.com,GlobalMedia
+HOST-SUFFIX,tfboyaac.com,GlobalMedia
+HOST-SUFFIX,tfboyaad.com,GlobalMedia
 HOST-SUFFIX,theclasshroom.com,GlobalMedia
 HOST-SUFFIX,thecwvideo.com,GlobalMedia
 HOST-SUFFIX,thefoxnation.com,GlobalMedia
@@ -1154,6 +1123,7 @@ HOST-SUFFIX,tiktok.us,GlobalMedia
 HOST-SUFFIX,tiktokcdn.com,GlobalMedia
 HOST-SUFFIX,tiktokv.com,GlobalMedia
 HOST-SUFFIX,timestalks.com,GlobalMedia
+HOST-SUFFIX,tsyndicate.com,GlobalMedia
 HOST-SUFFIX,ttvnw.net,GlobalMedia
 HOST-SUFFIX,tvb.com,GlobalMedia
 HOST-SUFFIX,tvb.com.au,GlobalMedia

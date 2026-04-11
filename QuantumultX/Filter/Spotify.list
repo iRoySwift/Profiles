@@ -1,43 +1,22 @@
 # NAME: Spotify
 # AUTHOR: Roy
 # REPO: https://github.com/iRoySwift
-# UPDATED: 2026-04-06
-# HOST: 28
+# UPDATED: 2026-04-09
+# HOST: 4
 # HOST-KEYWORD: 0
-# HOST-SUFFIX: 1
+# HOST-SUFFIX: 4
 # HOST-WILDCARD: 0
 # IP-CIDR: 0
 # IP6-CIDR: 0
 # IP-CIDR6: 0
 # USER-AGENT: 0
-# TOTAL: 29
+# TOTAL: 8
 
-HOST,aet.spotify.com,Spotify
-HOST,ap-gae2.spotify.com,Spotify
-HOST,ap-guc3.spotify.com,Spotify
-HOST,ap.spotify.com,Spotify
-HOST,api-partner.spotify.com,Spotify
-HOST,api.spotify.com,Spotify
-HOST,apresolve.spotify.com,Spotify
-HOST,clienttoken.spotify.com,Spotify
-HOST,exp.wg.spotify.com,Spotify
 HOST,gae2-dealer.g2.spotify.com,Spotify
-HOST,gae2-spclient.spotify.com,Spotify
-HOST,heads-fa-tls13.spotifycdn.com,Spotify
-HOST,image-cdn-ak.spotifycdn.com,Spotify
-HOST,image-cdn-fa.spotifycdn.com,Spotify
-HOST,login5.spotify.com,Spotify
-HOST,misc.spotifycdn.com,Spotify
 HOST,o22381.ingest.us.sentry.io,Spotify
-HOST,open.spotifycdn.com,Spotify
-HOST,pickasso.spotifycdn.com,Spotify
-HOST,pixel-static.spotify.com,Spotify
-HOST,pixel.spotify.com,Spotify
-HOST,seed-mix-image.spotifycdn.com,Spotify
-HOST,spclient.wg.spotify.com,Spotify
 HOST,spotify.demdex.net,Spotify
-HOST,thisis-images.spotifycdn.com,Spotify
-HOST,video-akpcw.spotifycdn.com,Spotify
-HOST,www.spotify.com,Spotify
 HOST,xpui.app.spotify.com,Spotify
 HOST-SUFFIX,byspotify.com,Spotify
+HOST-SUFFIX,spotify.com,Spotify
+HOST-SUFFIX,spotifycdn.com,Spotify
+HOST-SUFFIX,wg.spotify.com,Spotify

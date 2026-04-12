@@ -12,15 +12,12 @@
 # USER-AGENT: 31
 # TOTAL: 3713
 
-ip-cidr, 47.112.0.0/13, China
 host, release.anza.xyz, China
-HOST-SUFFIX, nintendo.com, China
 host, preferencenail.com, China
 host, nnyy.in, China
 host, prod-game-assets-app-41283.akamaized.net, China
 host, is.snssdk.com, China
 host, api.accounts.nintendo.com, China
-host, mssdk.volces.com, China
 host, player-api-prod.app-41283.com, China
 HOST,analytics.strava.com,China
 HOST,cdn.angruo.com,China
@@ -3266,7 +3263,6 @@ HOST-SUFFIX,vmallres.com,China
 HOST-SUFFIX,vobao.com,China
 HOST-SUFFIX,vodtcbk.com,China
 HOST-SUFFIX,volceapplog.com,China
-HOST-SUFFIX,volces.com,China
 HOST-SUFFIX,volcvod.com,China
 HOST-SUFFIX,vpgame.com,China
 HOST-SUFFIX,vxo7tu.com,China

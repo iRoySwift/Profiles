@@ -62,7 +62,6 @@ HOST,deribit.cdn.prismic.io,Global
 HOST,deutschewelle.h-cdn.com,Global
 HOST,dl.begellhouse.com,Global
 HOST,echarts.apache.org,Global
-HOST,edge-177.sgsin8.icloud-content.com,Global
 HOST,elib.maruzen.co.jp,Global
 HOST,espn.api.edge.bamgrid.com,Global
 HOST,espn.hb.omtrdc.net,Global
@@ -154,7 +153,6 @@ HOST-KEYWORD,gmail,Global
 HOST-KEYWORD,musical.ly,Global
 HOST-KEYWORD,sci-hub,Global
 HOST-KEYWORD,skydrive,Global
-HOST-KEYWORD,twimg,Global
 HOST-SUFFIX,000webhost.com,Global
 HOST-SUFFIX,01.org,Global
 HOST-SUFFIX,02weqj32.com,Global
@@ -1048,7 +1046,6 @@ HOST-SUFFIX,afr.com,Global
 HOST-SUFFIX,afreecatv.com,Global
 HOST-SUFFIX,afriboyz.com,Global
 HOST-SUFFIX,agag.tw,Global
-HOST-SUFFIX,agedm.org,Global
 HOST-SUFFIX,agendaweek.com,Global
 HOST-SUFFIX,agent.kaxin.cc,Global
 HOST-SUFFIX,agnesb.fr,Global
@@ -2350,7 +2347,6 @@ HOST-SUFFIX,azuresmartspaces.net,Global
 HOST-SUFFIX,azurestackvalidation.com,Global
 HOST-SUFFIX,azurewebsites.net,Global
 HOST-SUFFIX,b-eroland.net,Global
-HOST-SUFFIX,b-hls-09.sacdnssedge.com,Global
 HOST-SUFFIX,b-ok.africa,Global
 HOST-SUFFIX,b-ok.asia,Global
 HOST-SUFFIX,b-ok.cc,Global
@@ -5017,7 +5013,6 @@ HOST-SUFFIX,cmx.im,Global
 HOST-SUFFIX,cn-proxy.com,Global
 HOST-SUFFIX,cn.com,Global
 HOST-SUFFIX,cn.czmanga.com,Global
-HOST-SUFFIX,cn.nikkei.com,Global
 HOST-SUFFIX,cn6.eu,Global
 HOST-SUFFIX,cn8.googo.us,Global
 HOST-SUFFIX,cna.com.tw,Global
@@ -6702,7 +6697,6 @@ HOST-SUFFIX,ed21.cc,Global
 HOST-SUFFIX,edcity.hk,Global
 HOST-SUFFIX,edditstatic.com,Global
 HOST-SUFFIX,edengay.net,Global
-HOST-SUFFIX,edge-hls.sacdnssedge.com,Global
 HOST-SUFFIX,edgecastcdn.net,Global
 HOST-SUFFIX,edgefonts.net,Global
 HOST-SUFFIX,edgekey.net,Global
@@ -10192,7 +10186,6 @@ HOST-SUFFIX,ichigocandy.com,Global
 HOST-SUFFIX,ichineseporn.com,Global
 HOST-SUFFIX,icij.org,Global
 HOST-SUFFIX,icl-fi.org,Global
-HOST-SUFFIX,icloud.com,Global
 HOST-SUFFIX,icntv.xyz,Global
 HOST-SUFFIX,icoco.com,Global
 HOST-SUFFIX,iconfactory.net,Global
@@ -14553,8 +14546,6 @@ HOST-SUFFIX,nikke-fr.com,Global
 HOST-SUFFIX,nikke-jp.com,Global
 HOST-SUFFIX,nikke-kr.com,Global
 HOST-SUFFIX,nikke-sea.com,Global
-HOST-SUFFIX,nikkei-cnbc.co.jp,Global
-HOST-SUFFIX,nikkei.co.jp,Global
 HOST-SUFFIX,nikkei4946.com,Global
 HOST-SUFFIX,nikkeibp.co.jp,Global
 HOST-SUFFIX,nikonpc.com,Global
@@ -22028,7 +22019,6 @@ HOST-SUFFIX,xbox360.org,Global
 HOST-SUFFIX,xboxab.com,Global
 HOST-SUFFIX,xboxgamepass.com,Global
 HOST-SUFFIX,xboxgamestudios.com,Global
-HOST-SUFFIX,xboxlive.com,Global
 HOST-SUFFIX,xboxone.co,Global
 HOST-SUFFIX,xboxone.com,Global
 HOST-SUFFIX,xboxone.eu,Global

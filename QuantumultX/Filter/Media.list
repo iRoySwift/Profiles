@@ -51,7 +51,6 @@ HOST,dash.afun.la,GlobalMedia
 HOST,daznfeeds.com.edgekey.net,GlobalMedia
 HOST,dca-lm-livedazn.secure.footprint.net,GlobalMedia
 HOST,ecjcc.liugw2.cn,GlobalMedia
-HOST,edge-013.sgsin8.icloud-content.com,GlobalMedia
 HOST,edge.cwtv-vod-ext.top.comcast.net,GlobalMedia
 HOST,events.backtrace.io,GlobalMedia
 HOST,fonts.bunny.net,GlobalMedia
@@ -87,18 +86,14 @@ HOST,lf16-geckocdn-offline.g-p-static.com,GlobalMedia
 HOST,lf16-picoverse-i18n.picovr.com,GlobalMedia
 HOST,linux.do,GlobalMedia
 HOST,logos.skyscnr.com,GlobalMedia
-HOST,m.agedm.vip,GlobalMedia
 HOST,mirror.ossplanet.net,GlobalMedia
 HOST,missav.ws,GlobalMedia
 HOST,missav123.com,GlobalMedia
-HOST,mssdk.volces.com,GlobalMedia
 HOST,nano.nachoneko.cn,GlobalMedia
 HOST,niercloud.com,GlobalMedia
-HOST,nnyy.in,GlobalMedia
 HOST,oxx123.com,GlobalMedia
 HOST,p0.ssl.qhimg.com,GlobalMedia
 HOST,pokemon-tcg-pocket.wiki,GlobalMedia
-HOST,preferencenail.com,GlobalMedia
 HOST,ptcgp-wiki.metainnovation.site,GlobalMedia
 HOST,r.trackwilltrk.com,GlobalMedia
 HOST,ranking.goo,GlobalMedia
@@ -145,7 +140,6 @@ HOST,tracker.nitrix.me,GlobalMedia
 HOST,tracker2.itzmx.com,GlobalMedia
 HOST,trk.publictracker.xyz,GlobalMedia
 HOST,tsyndicate.com,GlobalMedia
-HOST,twntc1.icloud-content.com,GlobalMedia
 HOST,u996.newsntp.net,GlobalMedia
 HOST,unpkg.zhimg.com,GlobalMedia
 HOST,v.9kb.me,GlobalMedia
@@ -160,8 +154,6 @@ HOST,warrior-of-light-25x-12.top,GlobalMedia
 HOST,ww1.senfun.net,GlobalMedia
 HOST,www.13dm.cc,GlobalMedia
 HOST,www.2rk.cc,GlobalMedia
-HOST,www.agedm.live,GlobalMedia
-HOST,www.agedm.me,GlobalMedia
 HOST,www.agefans.la,GlobalMedia
 HOST,www.ctc.run,GlobalMedia
 HOST,www.daxju.com,GlobalMedia
@@ -218,7 +210,6 @@ HOST-SUFFIX,adx.promo,GlobalMedia
 HOST-SUFFIX,afewmomentswith.com,GlobalMedia
 HOST-SUFFIX,afp.com,GlobalMedia
 HOST-SUFFIX,afpforum.com,GlobalMedia
-HOST-SUFFIX,agedm.io,GlobalMedia
 HOST-SUFFIX,aiv-cdn.net,GlobalMedia
 HOST-SUFFIX,aiv-delivery.net,GlobalMedia
 HOST-SUFFIX,akamaihd.net,GlobalMedia
@@ -331,7 +322,6 @@ HOST-SUFFIX,cnn.it,GlobalMedia
 HOST-SUFFIX,cnnarabic.com,GlobalMedia
 HOST-SUFFIX,cnnlabs.com,GlobalMedia
 HOST-SUFFIX,cnnmoney.ch,GlobalMedia
-HOST-SUFFIX,cnzz.com,GlobalMedia
 HOST-SUFFIX,cobeuz.fr,GlobalMedia
 HOST-SUFFIX,cobuz.fr,GlobalMedia
 HOST-SUFFIX,cobuzz.fr,GlobalMedia
@@ -837,7 +827,6 @@ HOST-SUFFIX,kktv.me,GlobalMedia
 HOST-SUFFIX,kmplayer.com,GlobalMedia
 HOST-SUFFIX,kobuz.fr,GlobalMedia
 HOST-SUFFIX,ktvu.com,GlobalMedia
-HOST-SUFFIX,larksuitecdn.com,GlobalMedia
 HOST-SUFFIX,line-cdn.net,GlobalMedia
 HOST-SUFFIX,line-scdn.net,GlobalMedia
 HOST-SUFFIX,linetv.tw,GlobalMedia
@@ -939,7 +928,6 @@ HOST-SUFFIX,nikkei.co.jp,GlobalMedia
 HOST-SUFFIX,nikkei.com,GlobalMedia
 HOST-SUFFIX,nikkei.jp,GlobalMedia
 HOST-SUFFIX,nimg.jp,GlobalMedia
-HOST-SUFFIX,nintendo.com,GlobalMedia
 HOST-SUFFIX,nivod.tv,GlobalMedia
 HOST-SUFFIX,nivodi.tv,GlobalMedia
 HOST-SUFFIX,nivodz.com,GlobalMedia
@@ -1053,7 +1041,6 @@ HOST-SUFFIX,rthk.hk,GlobalMedia
 HOST-SUFFIX,rthk.org.hk,GlobalMedia
 HOST-SUFFIX,s-nbcnews.com,GlobalMedia
 HOST-SUFFIX,s.yimg.jp,GlobalMedia
-HOST-SUFFIX,sacdnssedge.com,GlobalMedia
 HOST-SUFFIX,sbacii.com,GlobalMedia
 HOST-SUFFIX,sbnation.com,GlobalMedia
 HOST-SUFFIX,scdn.co,GlobalMedia

@@ -32,7 +32,6 @@ HOST,assets.echo-protocol.xyz,Solana
 HOST,assets.geckoterminal.com,Solana
 HOST,assets.marketing.bullish.com,Solana
 HOST,auth.privy.io,Solana
-HOST,avatars.githubusercontent.com,Solana
 HOST,bakamh.com,Solana
 HOST,beacons.gcp.gvt2.com,Solana
 HOST,beacons.gvt2.com,Solana
@@ -65,8 +64,6 @@ HOST,exponent.finance,Solana
 HOST,fabled-empty-vineyard.solana-mainnet.quiknode.pro,Solana
 HOST,fe4385362baa.20414af6.ap-northeast-1.token.awswaf.com,Solana
 HOST,fonts.reown.com,Solana
-HOST,github.com,Solana
-HOST,github.githubassets.com,Solana
 HOST,gmgn.ai,Solana
 HOST,graphigo.prd.galaxy.eco,Solana
 HOST,grs.dbankcloud.com,Solana
@@ -124,7 +121,6 @@ HOST,suiscan.xyz,Solana
 HOST,t.ssp.hinet.net,Solana
 HOST,tanstack.com,Solana
 HOST,titan.exchange,Solana
-HOST,twitter.com,Solana
 HOST,v3.tailwindcss.com,Solana
 HOST,vdownload-3.hembed.com,Solana
 HOST,widget.paybis.com,Solana
@@ -167,7 +163,6 @@ HOST-SUFFIX,coinglasscdn.com,Solana
 HOST-SUFFIX,cursor.sh,Solana
 HOST-SUFFIX,expo.dev,Solana
 HOST-SUFFIX,fragmetric.xyz,Solana
-HOST-SUFFIX,github.com,Solana
 HOST-SUFFIX,helium.com,Solana
 HOST-SUFFIX,helius-rpc.com,Solana
 HOST-SUFFIX,helius.dev,Solana
@@ -193,7 +188,6 @@ HOST-SUFFIX,pump.fun,Solana
 HOST-SUFFIX,rain.fi,Solana
 HOST-SUFFIX,rate-x.io,Solana
 HOST-SUFFIX,raydium.io,Solana
-HOST-SUFFIX,rfi.fr,Solana
 HOST-SUFFIX,rpcpool.com,Solana
 HOST-SUFFIX,sanity.io,Solana
 HOST-SUFFIX,sentry.io,Solana
@@ -212,8 +206,6 @@ HOST-SUFFIX,switchboard.xyz,Solana
 HOST-SUFFIX,tensor.trade,Solana
 HOST-SUFFIX,tiplink.io,Solana
 HOST-SUFFIX,tradingview.com,Solana
-HOST-SUFFIX,twimg.com,Solana
-HOST-SUFFIX,twitter.com,Solana
 HOST-SUFFIX,umbraprivacy.com,Solana
 HOST-SUFFIX,visualstudio.com,Solana
 HOST-SUFFIX,walletconnect.org,Solana

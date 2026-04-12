@@ -86,14 +86,12 @@ HOST,marketplace.cursorapi.com,Solana
 HOST,media.solana-cdn.com,Solana
 HOST,metamask-sdk.api.cx.metamask.io,Solana
 HOST,meteora.ag,Solana
-HOST,metrics1-drcn.dt.dbankcloud.cn,Solana
 HOST,monitor-frontend-collector.a.bybit-aws.com,Solana
 HOST,nc2.nightly.app,Solana
 HOST,next-intl.dev,Solana
 HOST,nexus-websocket-a.intercom.io,Solana
 HOST,offers.coinlist.co,Solana
 HOST,ondo.finance,Solana
-HOST,optimizationguide-pa.googleapis.com,Solana
 HOST,oss.orderly.network,Solana
 HOST,portfolio-api-jup-pos.sonar.watch,Solana
 HOST,price-stream.titan.exchange,Solana
@@ -137,7 +135,6 @@ HOST,www.banyuetan.org,Solana
 HOST,www.btcfans.com,Solana
 HOST,www.exponent.finance,Solana
 HOST,www.express.co.uk,Solana
-HOST,www.google.com,Solana
 HOST,www.jito.network,Solana
 HOST,www.kelemanhua.org,Solana
 HOST,www.msftncsi.com,Solana

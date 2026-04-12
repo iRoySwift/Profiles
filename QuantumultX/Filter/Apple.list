@@ -12,6 +12,18 @@
 # USER-AGENT: 2
 # TOTAL: 14
 
+HOST,gateway.icloud.com, Apple
+HOST,gspe19-2-ssl.ls.apple.com, Apple
+HOST,gspe12-ssl.ls.apple.com, Apple
+HOST,mesu.apple.com, Apple
+HOST,weatherkit.apple.com, Apple
+HOST,gspe1-ssl.ls.apple.com, Apple
+HOST,gsp-ssl.ls.apple.com, Apple
+HOST,gspe19-ssl.ls.apple.com, Apple
+HOST,gsp64-ssl.ls.apple.com, Apple
+HOST,gspe11-ssl.ls.apple.com, Apple
+HOST,gspe79-ssl-96.ls.apple.com, Apple
+HOST,gspe35-ssl.ls.apple.com, Apple
 HOST,api.apple-cloudkit.com,Apple
 HOST,chrt.fm,Apple
 HOST,gitbook.swiftgg.team,Apple
@@ -29,4 +41,3 @@ USER-AGENT,com.apple.tv*,Apple
 DOMAIN,news-edge.apple.com,Apple
 DOMAIN,news-events.apple.com,Apple
 DOMAIN,apple.comscoreresearch.com,Apple
-URL-REGEX,^https?:\/\/news-assets\.apple\.com\/(audio-narrative|podcast\/audio)\/.*

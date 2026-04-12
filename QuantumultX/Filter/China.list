@@ -12,6 +12,16 @@
 # USER-AGENT: 31
 # TOTAL: 3713
 
+ip-cidr, 47.112.0.0/13, China
+host, release.anza.xyz, China
+HOST-SUFFIX, nintendo.com, China
+host, preferencenail.com, China
+host, nnyy.in, China
+host, prod-game-assets-app-41283.akamaized.net, China
+host, is.snssdk.com, China
+host, api.accounts.nintendo.com, China
+host, mssdk.volces.com, China
+host, player-api-prod.app-41283.com, China
 HOST,analytics.strava.com,China
 HOST,cdn.angruo.com,China
 HOST,client.amplifi.com,China
@@ -2581,6 +2591,9 @@ HOST-SUFFIX,proquest.com,China
 HOST-SUFFIX,proximabeta.com,China
 HOST-SUFFIX,psbc.com,China
 HOST-SUFFIX,pstatp.com,China
+HOST-SUFFIX,aqdstatic.com, China
+HOST-SUFFIX,ejtsyc.com, China
+HOST-SUFFIX,agedm.io, China
 HOST-SUFFIX,pterclub.com,China
 HOST-SUFFIX,pubghelper.com,China
 HOST-SUFFIX,pubgtool.com,China

@@ -12,6 +12,8 @@
 # USER-AGENT: 6
 # TOTAL: 176
 
+host, gemini.google.com, YouTube
+host, www.google.com.hk, YouTube
 HOST-SUFFIX,google-analytics.com,YouTube
 HOST-SUFFIX,google.cn,YouTube
 HOST-SUFFIX,google.com,YouTube
@@ -21,7 +23,6 @@ HOST-SUFFIX,googlevideo.com,YouTube
 HOST-SUFFIX,withgoogle.com,YouTube
 HOST-SUFFIX,youtu.be,YouTube
 HOST-SUFFIX,youtube-nocookie.com,YouTube
-HOST-SUFFIX,youtube-ui.l.google.com,YouTube
 HOST-SUFFIX,youtube.ae,YouTube
 HOST-SUFFIX,youtube.al,YouTube
 HOST-SUFFIX,youtube.am,YouTube
@@ -117,7 +118,6 @@ HOST-SUFFIX,youtube.es,YouTube
 HOST-SUFFIX,youtube.fi,YouTube
 HOST-SUFFIX,youtube.fr,YouTube
 HOST-SUFFIX,youtube.ge,YouTube
-HOST-SUFFIX,youtube.googleapis.com,YouTube
 HOST-SUFFIX,youtube.gr,YouTube
 HOST-SUFFIX,youtube.gt,YouTube
 HOST-SUFFIX,youtube.hk,YouTube
